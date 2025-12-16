@@ -1,8 +1,8 @@
 # Site settings
 title: "미니멀 라이프"
 description: "덜어내며 살아가는 일상의 기록"
-baseurl: ""
-url: ""
+baseurl: "/minimal-life"
+url: "https://ipari.dev"
 
 # Build settings
 markdown: kramdown
