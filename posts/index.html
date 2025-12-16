@@ -1,0 +1,23 @@
+---
+layout: default
+title: 모든 글
+---
+
+<h1 class="page-title" style="margin-bottom: 2rem;">모든 글</h1>
+
+{% if site.posts.size > 0 %}
+<ul class="posts-archive">
+  {% for post in site.posts %}
+  <li class="post-item">
+    <time class="post-item-date" datetime="{{ post.date | date_to_xmlschema }}">
+      {{ post.date | date: "%Y.%m.%d" }}
+    </time>
+    <h3 class="post-item-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h3>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="empty-state">아직 작성된 글이 없습니다.</p>
+{% endif %}

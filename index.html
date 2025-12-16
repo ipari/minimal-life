@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<section class="home-section">
+  <h2 class="section-title">최근 글</h2>
+
+  {% assign recent_posts = site.posts | slice: 0, 5 %}
+
+  {% if recent_posts.size > 0 %}
+  <ul class="post-list">
+    {% for post in recent_posts %}
+    <li class="post-item">
+      <h3 class="post-item-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h3>
+      <time class="post-item-date" datetime="{{ post.date | date_to_xmlschema }}">
+        {{ post.date | date: "%Y년 %m월 %d일" }}
+      </time>
+    </li>
+    {% endfor %}
+  </ul>
+  <a href="{{ '/posts/' | relative_url }}" class="more-link">더 보기 &rarr;</a>
+  {% else %}
+  <p class="empty-state">아직 작성된 글이 없습니다.</p>
+  {% endif %}
+</section>
+
+<section class="home-section">
+  <h2 class="section-title">나의 물건들</h2>
+
+  {% if site.pages.size > 0 %}
+  <div class="page-grid">
+    {% for page in site.pages %}
+    <a href="{{ page.url | relative_url }}" class="page-card">
+      <div class="page-card-thumbnail">
+        {% if page.thumbnail %}
+        <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}">
+        {% endif %}
+      </div>
+      <h3 class="page-card-title">{{ page.title }}</h3>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="empty-state">아직 등록된 물건이 없습니다.</p>
+  {% endif %}
+</section>
