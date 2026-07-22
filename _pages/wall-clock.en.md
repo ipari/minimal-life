@@ -7,6 +7,7 @@ translation_key: wall-clock
 permalink: /en/items/wall-clock/
 alternate_url: /ko/items/wall-clock/
 thumbnail: /assets/images/wall-clock.svg
+model: "Lemnos Riki Clock"
 status: "In use"
 category: "Furniture & interior"
 item_order: 30

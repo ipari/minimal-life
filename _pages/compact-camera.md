@@ -6,6 +6,7 @@ translation_key: compact-camera
 permalink: /ko/items/compact-camera/
 alternate_url: /en/items/compact-camera/
 thumbnail: /assets/images/compact-camera.svg
+model: "Ricoh GR III"
 status: "사용 중"
 category: "전자기기"
 item_order: 30

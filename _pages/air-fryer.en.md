@@ -7,6 +7,7 @@ translation_key: air-fryer
 permalink: /en/items/air-fryer/
 alternate_url: /ko/items/air-fryer/
 thumbnail: /assets/images/air-fryer.svg
+model: "Philips Airfryer HD9252/90"
 status: "Not purchased"
 category: "Kitchen"
 reviewed_date: 2026-07-21
@@ -20,4 +21,3 @@ I considered buying one to make simple meals quickly.
 ## Decision
 
 It overlaps with the oven and would permanently occupy counter space, so I decided not to buy it.
-

@@ -406,19 +406,27 @@ body {
   font-weight: 400;
 }
 
-.page-meta {
-  display: flex;
-  justify-content: center;
-  gap: 0.4rem;
-  margin-top: 0.65rem;
+.page-heading {
+  text-align: center;
 }
 
-.item-facts {
+.page-category {
+  margin-bottom: 0.45rem;
+}
+
+.page-model {
+  margin-top: -4px;
+  color: var(--color-text-light);
+  font-size: 0.9rem;
+}
+
+.item-overview {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  gap: 0.25rem 1rem;
-  margin-top: 0.55rem;
+  gap: 0.3rem 0.65rem;
+  margin-top: 16px;
   color: var(--color-text-light);
   font-size: 0.8rem;
 }

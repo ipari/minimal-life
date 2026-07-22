@@ -6,6 +6,7 @@ translation_key: canvas-tote
 permalink: /ko/items/canvas-tote/
 alternate_url: /en/items/canvas-tote/
 thumbnail: /assets/images/canvas-tote.svg
+model: "MUJI Canvas Tote Medium"
 status: "사용 중"
 category: "가방·액세서리"
 item_order: 20

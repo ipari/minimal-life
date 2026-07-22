@@ -6,6 +6,7 @@ translation_key: tablet
 permalink: /ko/items/tablet/
 alternate_url: /en/items/tablet/
 thumbnail: /assets/images/tablet.svg
+model: "iPad Air 11-inch (M2)"
 status: "구매하지 않음"
 category: "전자기기"
 reviewed_date: 2026-07-12

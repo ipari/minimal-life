@@ -7,6 +7,7 @@ translation_key: robot-vacuum
 permalink: /en/items/robot-vacuum/
 alternate_url: /ko/items/robot-vacuum/
 thumbnail: /assets/images/robot-vacuum.svg
+model: "Roborock Q8 Max"
 status: "Not purchased"
 category: "Electronics"
 reviewed_date: 2026-06-28
@@ -20,4 +21,3 @@ I thought automatic daily floor cleaning would save time.
 ## Decision
 
 My home is small and has many thresholds; cleaning it with the existing vacuum takes only ten minutes.
-

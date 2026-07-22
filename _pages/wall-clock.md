@@ -6,6 +6,7 @@ translation_key: wall-clock
 permalink: /ko/items/wall-clock/
 alternate_url: /en/items/wall-clock/
 thumbnail: /assets/images/wall-clock.svg
+model: "Lemnos Riki Clock"
 status: "사용 중"
 category: "가구·인테리어"
 item_order: 30

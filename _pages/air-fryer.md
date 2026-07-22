@@ -6,6 +6,7 @@ translation_key: air-fryer
 permalink: /ko/items/air-fryer/
 alternate_url: /en/items/air-fryer/
 thumbnail: /assets/images/air-fryer.svg
+model: "Philips Airfryer HD9252/90"
 status: "구매하지 않음"
 category: "주방용품"
 reviewed_date: 2026-07-21

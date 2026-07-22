@@ -7,6 +7,7 @@ translation_key: bluetooth-speaker
 permalink: /en/items/bluetooth-speaker/
 alternate_url: /ko/items/bluetooth-speaker/
 thumbnail: /assets/images/bluetooth-speaker.svg
+model: "JBL Flip 6"
 status: "In use"
 category: "Electronics"
 item_order: 20

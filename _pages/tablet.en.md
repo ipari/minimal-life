@@ -7,6 +7,7 @@ translation_key: tablet
 permalink: /en/items/tablet/
 alternate_url: /ko/items/tablet/
 thumbnail: /assets/images/tablet.svg
+model: "iPad Air 11-inch (M2)"
 status: "Not purchased"
 category: "Electronics"
 reviewed_date: 2026-07-12
@@ -20,4 +21,3 @@ I wanted a separate device for video and handwriting.
 ## Decision
 
 My laptop and e-reader already did everything I needed, so I did not buy it.
-

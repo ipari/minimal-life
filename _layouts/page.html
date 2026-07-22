@@ -3,14 +3,13 @@ layout: default
 ---
 <article class="page">
   <header class="page-header">
-    <h1 class="page-title">{{ page.title }}</h1>
-    {% if page.category %}
-    <div class="page-meta">
-      <span class="category-badge">{{ page.category }}</span>
+    {% if page.category %}<div class="page-category"><span class="category-badge">{{ page.category }}</span></div>{% endif %}
+    <div class="page-heading">
+      <h1 class="page-title">{{ page.title }}</h1>
+      {% if page.model %}<p class="page-model">{{ page.model }}</p>{% endif %}
     </div>
-    {% endif %}
     {% if page.status or page.acquired_date %}
-    <div class="item-facts">
+    <div class="item-overview">
       {% if page.status %}<p class="item-status">{{ page.status }}</p>{% endif %}
       {% if page.status and page.acquired_date %}<span class="fact-separator" aria-hidden="true">·</span>{% endif %}
       {% if page.acquired_date %}

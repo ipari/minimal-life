@@ -6,6 +6,7 @@ translation_key: pen
 permalink: /ko/items/pen/
 alternate_url: /en/items/pen/
 thumbnail: /assets/images/pen.svg
+model: "Lamy Safari Fountain Pen"
 status: "사용 중"
 category: "문구·사무용품"
 item_order: 20

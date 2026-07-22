@@ -7,6 +7,7 @@ translation_key: water-bottle
 permalink: /en/items/water-bottle/
 alternate_url: /ko/items/water-bottle/
 thumbnail: /assets/images/water-bottle.svg
+model: "Klean Kanteen Classic 532ml"
 status: "In use"
 category: "Kitchen"
 item_order: 30

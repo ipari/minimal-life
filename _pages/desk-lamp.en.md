@@ -7,6 +7,7 @@ translation_key: desk-lamp
 permalink: /en/items/desk-lamp/
 alternate_url: /ko/items/desk-lamp/
 thumbnail: /assets/images/desk-lamp.svg
+model: "BenQ WiT e-Reading Desk Lamp"
 status: "In use"
 category: "Furniture & interior"
 item_order: 10

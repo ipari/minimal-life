@@ -6,6 +6,7 @@ translation_key: hand-drip-set
 permalink: /ko/items/hand-drip-set/
 alternate_url: /en/items/hand-drip-set/
 thumbnail: /assets/images/hand-drip-set.svg
+model: "Hario V60 02"
 status: "사용 중"
 category: "주방용품"
 item_order: 20
