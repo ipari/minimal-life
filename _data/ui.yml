@@ -6,7 +6,7 @@ en:
   view_all: View all
   no_posts: No posts yet.
   recent_items: Recently acquired
-  recent_reviews: Recently reviewed
+  recent_reviews: Recent No-Buys
   my_items: My things
   no_items: No items yet.
   all_posts: All posts
@@ -21,7 +21,7 @@ ko:
   view_all: 전체 보기
   no_posts: 아직 작성된 글이 없습니다.
   recent_items: 최근 들인 물건들
-  recent_reviews: 들이지 않기로 한 물건들
+  recent_reviews: 최근 들이지 않기로 한 물건들
   my_items: 나의 물건들
   no_items: 아직 등록된 물건이 없습니다.
   all_posts: 모든 글
