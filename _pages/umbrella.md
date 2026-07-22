@@ -9,6 +9,7 @@ thumbnail: /assets/images/umbrella.svg
 status: "사용 중"
 category: "침구·생활용품"
 item_order: 10
+acquired_date: 2025-07-02
 ---
 
 ## 구매했던 이유

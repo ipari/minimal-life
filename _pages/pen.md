@@ -9,6 +9,7 @@ thumbnail: /assets/images/pen.svg
 status: "사용 중"
 category: "문구·사무용품"
 item_order: 20
+acquired_date: 2025-12-05
 ---
 
 ## 제품 정보

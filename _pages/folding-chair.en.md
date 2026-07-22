@@ -10,6 +10,7 @@ thumbnail: /assets/images/folding-chair.svg
 status: "In use"
 category: "Furniture & interior"
 item_order: 20
+acquired_date: 2023-06-05
 ---
 
 ## Why I considered it

@@ -10,6 +10,7 @@ thumbnail: /assets/images/keyboard.svg
 status: "In use"
 category: "Electronics"
 item_order: 50
+acquired_date: 2024-09-03
 ---
 
 ## Why I considered it

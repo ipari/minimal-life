@@ -9,6 +9,7 @@ thumbnail: /assets/images/backpack.svg
 status: "사용 중"
 category: "가방·액세서리"
 item_order: 10
+acquired_date: 2025-03-10
 ---
 
 ## 제품 정보

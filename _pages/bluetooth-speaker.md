@@ -9,6 +9,7 @@ thumbnail: /assets/images/bluetooth-speaker.svg
 status: "사용 중"
 category: "전자기기"
 item_order: 20
+acquired_date: 2023-08-20
 ---
 
 ## 구매했던 이유

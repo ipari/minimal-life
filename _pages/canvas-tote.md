@@ -9,6 +9,7 @@ thumbnail: /assets/images/canvas-tote.svg
 status: "사용 중"
 category: "가방·액세서리"
 item_order: 20
+acquired_date: 2025-08-22
 ---
 
 ## 구매하려던 이유

@@ -10,6 +10,7 @@ thumbnail: /assets/images/wall-clock.svg
 status: "In use"
 category: "Furniture & interior"
 item_order: 30
+acquired_date: 2022-10-11
 ---
 
 ## Why I considered it

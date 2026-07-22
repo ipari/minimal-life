@@ -10,6 +10,7 @@ thumbnail: /assets/images/compact-camera.svg
 status: "In use"
 category: "Electronics"
 item_order: 30
+acquired_date: 2024-04-12
 ---
 
 ## Why I considered it

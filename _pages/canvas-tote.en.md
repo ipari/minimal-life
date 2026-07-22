@@ -10,6 +10,7 @@ thumbnail: /assets/images/canvas-tote.svg
 status: "In use"
 category: "Bags & accessories"
 item_order: 20
+acquired_date: 2025-08-22
 ---
 
 ## Why I considered it

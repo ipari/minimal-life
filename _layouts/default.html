@@ -14,11 +14,6 @@
   <div class="container">
     <header class="site-header">
       <a href="/{{ lang }}/" class="site-title">{{ t.site_title }}</a>
-      <nav class="language-switcher" aria-label="Language">
-        {% if page.alternate_url %}
-        <a href="{{ page.alternate_url }}" lang="{% if lang == 'ko' %}en{% else %}ko{% endif %}">{% if lang == 'ko' %}English{% else %}한국어{% endif %}</a>
-        {% endif %}
-      </nav>
     </header>
 
     <main class="content">

@@ -10,6 +10,7 @@ thumbnail: /assets/images/backpack.svg
 status: "In use"
 category: "Bags & accessories"
 item_order: 10
+acquired_date: 2025-03-10
 ---
 
 ## Why I considered it

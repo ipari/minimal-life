@@ -10,6 +10,7 @@ thumbnail: /assets/images/travel-mug.svg
 status: "In use"
 category: "Kitchen"
 item_order: 40
+acquired_date: 2024-11-16
 ---
 
 ## Why I considered it

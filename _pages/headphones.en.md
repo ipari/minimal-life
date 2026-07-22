@@ -10,6 +10,7 @@ thumbnail: /assets/images/headphones.svg
 status: "In use"
 category: "Electronics"
 item_order: 40
+acquired_date: 2023-02-08
 ---
 
 ## Why I considered it

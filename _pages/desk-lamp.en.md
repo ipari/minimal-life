@@ -10,6 +10,7 @@ thumbnail: /assets/images/desk-lamp.svg
 status: "In use"
 category: "Furniture & interior"
 item_order: 10
+acquired_date: 2024-01-28
 ---
 
 ## Why I considered it

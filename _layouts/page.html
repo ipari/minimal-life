@@ -4,10 +4,20 @@ layout: default
 <article class="page">
   <header class="page-header">
     <h1 class="page-title">{{ page.title }}</h1>
-    {% if page.category or page.status %}
+    {% if page.category %}
     <div class="page-meta">
-      {% if page.category %}<span class="category-badge">{{ page.category }}</span>{% endif %}
-      {% if page.status %}<span class="status-badge">{{ page.status }}</span>{% endif %}
+      <span class="category-badge">{{ page.category }}</span>
+    </div>
+    {% endif %}
+    {% if page.status or page.acquired_date %}
+    <div class="item-facts">
+      {% if page.status %}<p class="item-status">{{ page.status }}</p>{% endif %}
+      {% if page.status and page.acquired_date %}<span class="fact-separator" aria-hidden="true">·</span>{% endif %}
+      {% if page.acquired_date %}
+      <p class="acquired-date">
+        {% if page.lang == "ko" %}{{ page.acquired_date | date: "%Y년 %-m월 %-d일" }}에 {{ site.data.ui[page.lang].acquired_date }}{% else %}{{ site.data.ui[page.lang].acquired_date }} {{ page.acquired_date | date: "%b %-d, %Y" }}{% endif %}
+      </p>
+      {% endif %}
     </div>
     {% endif %}
   </header>

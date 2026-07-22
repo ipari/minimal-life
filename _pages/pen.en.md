@@ -10,6 +10,7 @@ thumbnail: /assets/images/pen.svg
 status: "In use"
 category: "Stationery & office"
 item_order: 20
+acquired_date: 2025-12-05
 ---
 
 ## Why I considered it

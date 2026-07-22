@@ -10,6 +10,7 @@ thumbnail: /assets/images/bluetooth-speaker.svg
 status: "In use"
 category: "Electronics"
 item_order: 20
+acquired_date: 2023-08-20
 ---
 
 ## Why I considered it

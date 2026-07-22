@@ -10,6 +10,7 @@ thumbnail: /assets/images/umbrella.svg
 status: "In use"
 category: "Household"
 item_order: 10
+acquired_date: 2025-07-02
 ---
 
 ## Why I considered it

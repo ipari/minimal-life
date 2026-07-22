@@ -9,6 +9,7 @@ thumbnail: /assets/images/desk-lamp.svg
 status: "사용 중"
 category: "가구·인테리어"
 item_order: 10
+acquired_date: 2024-01-28
 ---
 
 ## 구매했던 이유

@@ -10,6 +10,7 @@ thumbnail: /assets/images/notebook.svg
 status: "In use"
 category: "Stationery & office"
 item_order: 10
+acquired_date: 2026-02-14
 ---
 
 ## Why I considered it

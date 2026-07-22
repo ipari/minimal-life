@@ -10,6 +10,7 @@ thumbnail: /assets/images/e-reader.svg
 status: "In use"
 category: "Electronics"
 item_order: 10
+acquired_date: 2025-01-15
 ---
 
 ## Why I considered it

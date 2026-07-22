@@ -9,6 +9,7 @@ thumbnail: /assets/images/compact-camera.svg
 status: "사용 중"
 category: "전자기기"
 item_order: 30
+acquired_date: 2024-04-12
 ---
 
 ## 구매했던 이유

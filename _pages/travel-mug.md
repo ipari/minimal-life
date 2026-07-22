@@ -9,6 +9,7 @@ thumbnail: /assets/images/travel-mug.svg
 status: "사용 중"
 category: "주방용품"
 item_order: 40
+acquired_date: 2024-11-16
 ---
 
 ## 구매했던 이유

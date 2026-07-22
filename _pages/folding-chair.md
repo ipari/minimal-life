@@ -9,6 +9,7 @@ thumbnail: /assets/images/folding-chair.svg
 status: "사용 중"
 category: "가구·인테리어"
 item_order: 20
+acquired_date: 2023-06-05
 ---
 
 ## 구매했던 이유

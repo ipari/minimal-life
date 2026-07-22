@@ -9,6 +9,7 @@ thumbnail: /assets/images/keyboard.svg
 status: "사용 중"
 category: "전자기기"
 item_order: 50
+acquired_date: 2024-09-03
 ---
 
 ## 구매했던 이유

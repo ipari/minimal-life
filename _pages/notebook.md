@@ -9,6 +9,7 @@ thumbnail: /assets/images/notebook.svg
 status: "사용 중"
 category: "문구·사무용품"
 item_order: 10
+acquired_date: 2026-02-14
 ---
 
 ## 제품 정보

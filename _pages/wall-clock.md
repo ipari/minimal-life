@@ -9,6 +9,7 @@ thumbnail: /assets/images/wall-clock.svg
 status: "사용 중"
 category: "가구·인테리어"
 item_order: 30
+acquired_date: 2022-10-11
 ---
 
 ## 구매했던 이유
