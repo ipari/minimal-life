@@ -9,7 +9,7 @@
 {% endif %}
 {% assign owned_items = localized_items | where: "status", active_status %}
 
-<section class="home-section">
+<section class="home-section home-section-compact">
   <h2 class="section-title">{{ t.recent_posts }}</h2>
   {% assign recent_posts = localized_posts | slice: 0, 3 %}
   {% if recent_posts.size > 0 %}
@@ -42,7 +42,7 @@
 
 {% assign reviewed_items = localized_items | where_exp: "item", "item.reviewed_date" | sort: "reviewed_date" | reverse %}
 {% if reviewed_items.size > 0 %}
-<section class="home-section">
+<section class="home-section home-section-compact">
   <h2 class="section-title">{{ t.recent_reviews }}</h2>
   <ul class="review-list">
     {% for item in reviewed_items limit: 3 %}

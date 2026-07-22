@@ -87,6 +87,10 @@ body {
   border-bottom: 1px solid var(--color-border);
 }
 
+.home-section-compact .section-title {
+  margin-bottom: 0.25rem;
+}
+
 /* Recent Posts */
 .post-list {
   list-style: none;
