@@ -5,7 +5,7 @@ kind: item
 translation_key: second-keyboard
 permalink: /ko/items/second-keyboard/
 alternate_url: /en/items/second-keyboard/
-thumbnail: /assets/images/keyboard.svg
+thumbnail: /assets/images/products/keyboard.png
 model: "Logitech Keys-To-Go 2"
 status: "사용 중"
 category: "전자기기"

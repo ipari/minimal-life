@@ -6,7 +6,7 @@ kind: item
 translation_key: umbrella
 permalink: /en/items/umbrella/
 alternate_url: /ko/items/umbrella/
-thumbnail: /assets/images/umbrella.svg
+thumbnail: /assets/images/products/umbrella.png
 model: "Knirps US.050"
 status: "In use"
 category: "Household"

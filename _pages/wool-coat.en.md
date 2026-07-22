@@ -6,7 +6,7 @@ kind: item
 translation_key: wool-coat
 permalink: /en/items/wool-coat/
 alternate_url: /ko/items/wool-coat/
-thumbnail: /assets/images/wool-coat.svg
+thumbnail: /assets/images/products/wool-coat.png
 model: "Uniqlo Cashmere Blend Chester Coat"
 status: "In use"
 category: "Clothing & footwear"

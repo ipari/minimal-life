@@ -5,7 +5,7 @@ kind: item
 translation_key: water-bottle
 permalink: /ko/items/water-bottle/
 alternate_url: /en/items/water-bottle/
-thumbnail: /assets/images/water-bottle.svg
+thumbnail: /assets/images/products/water-bottle.png
 model: "Klean Kanteen Classic 532ml"
 status: "사용 중"
 category: "주방용품"

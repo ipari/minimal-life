@@ -5,7 +5,7 @@ kind: item
 translation_key: travel-mug
 permalink: /ko/items/travel-mug/
 alternate_url: /en/items/travel-mug/
-thumbnail: /assets/images/travel-mug.svg
+thumbnail: /assets/images/products/travel-mug.png
 model: "Zojirushi SM-SF48"
 status: "사용 중"
 category: "주방용품"

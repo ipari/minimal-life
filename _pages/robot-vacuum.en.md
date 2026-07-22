@@ -6,7 +6,7 @@ kind: item
 translation_key: robot-vacuum
 permalink: /en/items/robot-vacuum/
 alternate_url: /ko/items/robot-vacuum/
-thumbnail: /assets/images/robot-vacuum.svg
+thumbnail: /assets/images/products/robot-vacuum.png
 model: "Roborock Q8 Max"
 status: "Not purchased"
 category: "Electronics"

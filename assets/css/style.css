@@ -165,7 +165,7 @@ body {
   aspect-ratio: 1;
   margin-bottom: 0.75rem;
   overflow: hidden;
-  background: var(--color-border);
+  background: #fff;
 }
 
 .recent-item-thumbnail img {
@@ -286,7 +286,7 @@ body {
 
 .page-card-thumbnail {
   aspect-ratio: 1;
-  background-color: var(--color-border);
+  background-color: #fff;
   margin-bottom: 0.75rem;
   overflow: hidden;
 }
@@ -437,7 +437,10 @@ body {
 }
 
 .page-thumbnail {
-  margin-bottom: var(--spacing);
+  max-width: 512px;
+  margin: 0 auto var(--spacing);
+  overflow: hidden;
+  background: #fff;
 }
 
 .page-thumbnail img {

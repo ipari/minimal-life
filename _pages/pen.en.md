@@ -6,7 +6,7 @@ kind: item
 translation_key: pen
 permalink: /en/items/pen/
 alternate_url: /ko/items/pen/
-thumbnail: /assets/images/pen.svg
+thumbnail: /assets/images/products/pen.png
 model: "Lamy Safari Fountain Pen"
 status: "In use"
 category: "Stationery & office"

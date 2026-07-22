@@ -5,7 +5,7 @@ kind: item
 translation_key: umbrella
 permalink: /ko/items/umbrella/
 alternate_url: /en/items/umbrella/
-thumbnail: /assets/images/umbrella.svg
+thumbnail: /assets/images/products/umbrella.png
 model: "Knirps US.050"
 status: "사용 중"
 category: "침구·생활용품"

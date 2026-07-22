@@ -6,7 +6,7 @@ kind: item
 translation_key: cast-iron-pan
 permalink: /en/items/cast-iron-pan/
 alternate_url: /ko/items/cast-iron-pan/
-thumbnail: /assets/images/cast-iron-pan.svg
+thumbnail: /assets/images/products/cast-iron-pan.png
 model: "Lodge L8SK3 10.25-inch"
 status: "In use"
 category: "Kitchen"

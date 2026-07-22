@@ -6,7 +6,7 @@ kind: item
 translation_key: tablet
 permalink: /en/items/tablet/
 alternate_url: /ko/items/tablet/
-thumbnail: /assets/images/tablet.svg
+thumbnail: /assets/images/products/tablet.png
 model: "iPad Air 11-inch (M2)"
 status: "Not purchased"
 category: "Electronics"

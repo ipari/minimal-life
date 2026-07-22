@@ -6,7 +6,7 @@ kind: item
 translation_key: headphones
 permalink: /en/items/headphones/
 alternate_url: /ko/items/headphones/
-thumbnail: /assets/images/headphones.svg
+thumbnail: /assets/images/products/headphones.png
 model: "Audio-Technica ATH-M50x"
 status: "In use"
 category: "Electronics"

@@ -6,7 +6,7 @@ kind: item
 translation_key: backpack
 permalink: /en/items/backpack/
 alternate_url: /ko/items/backpack/
-thumbnail: /assets/images/backpack.svg
+thumbnail: /assets/images/products/backpack.png
 model: "SimpleBack Daypack 20L"
 status: "In use"
 category: "Bags & accessories"

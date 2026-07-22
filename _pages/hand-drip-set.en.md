@@ -6,7 +6,7 @@ kind: item
 translation_key: hand-drip-set
 permalink: /en/items/hand-drip-set/
 alternate_url: /ko/items/hand-drip-set/
-thumbnail: /assets/images/hand-drip-set.svg
+thumbnail: /assets/images/products/hand-drip-set.png
 model: "Hario V60 02"
 status: "In use"
 category: "Kitchen"
