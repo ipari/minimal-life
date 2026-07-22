@@ -8,6 +8,7 @@ alternate_url: /en/items/wool-coat/
 thumbnail: /assets/images/wool-coat.svg
 status: "사용 중"
 category: "의류·신발"
+item_order: 10
 acquired_date: 2026-06-24
 ---
 

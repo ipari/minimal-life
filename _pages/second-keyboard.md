@@ -6,8 +6,9 @@ translation_key: second-keyboard
 permalink: /ko/items/second-keyboard/
 alternate_url: /en/items/second-keyboard/
 thumbnail: /assets/images/keyboard.svg
-status: "내보냄"
+status: "사용 중"
 category: "전자기기"
+item_order: 50
 ---
 
 ## 구매했던 이유

@@ -9,6 +9,7 @@ alternate_url: /ko/items/hand-drip-set/
 thumbnail: /assets/images/hand-drip-set.svg
 status: "In use"
 category: "Kitchen"
+item_order: 20
 acquired_date: 2026-05-17
 ---
 
@@ -19,4 +20,3 @@ I wanted to drink coffee at home while reducing capsules and packaging waste.
 ## Decision
 
 I chose the simplest setup: only filters and a dripper.
-

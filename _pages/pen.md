@@ -8,6 +8,7 @@ alternate_url: /en/items/pen/
 thumbnail: /assets/images/pen.svg
 status: "사용 중"
 category: "문구·사무용품"
+item_order: 20
 ---
 
 ## 제품 정보

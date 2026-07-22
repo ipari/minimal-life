@@ -9,6 +9,8 @@ alternate_url: /ko/items/espresso-machine/
 thumbnail: /assets/images/espresso-machine.svg
 status: "Not purchased"
 category: "Kitchen"
+reviewed_date: 2026-05-30
+review_summary: "I kept the hand-drip set after considering maintenance and cleaning."
 ---
 
 ## Why I considered it
@@ -18,4 +20,3 @@ I wanted to make strong café-style coffee at home.
 ## Decision
 
 Once I included maintenance and cleaning time, my hand-drip set suited me better.
-

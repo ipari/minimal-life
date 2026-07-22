@@ -8,6 +8,7 @@ alternate_url: /en/items/e-reader/
 thumbnail: /assets/images/e-reader.svg
 status: "사용 중"
 category: "전자기기"
+item_order: 10
 ---
 
 ## 구매하려던 이유

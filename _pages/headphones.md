@@ -6,8 +6,9 @@ translation_key: headphones
 permalink: /ko/items/headphones/
 alternate_url: /en/items/headphones/
 thumbnail: /assets/images/headphones.svg
-status: "사용 완료"
+status: "사용 중"
 category: "전자기기"
+item_order: 40
 ---
 
 ## 구매했던 이유

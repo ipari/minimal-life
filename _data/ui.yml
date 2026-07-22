@@ -3,22 +3,26 @@ en:
   description: Notes on living with less
   recent_posts: Recent posts
   more: More
+  view_all: View all
   no_posts: No posts yet.
   recent_items: Recently acquired
   recent_reviews: Recently reviewed
   my_items: My things
   no_items: No items yet.
   all_posts: All posts
+  all_reviews: All reviewed items
   home: Home
 ko:
   site_title: 미니멀 라이프
   description: 덜어내며 살아가는 일상의 기록
   recent_posts: 최근 글
   more: 더 보기
+  view_all: 전체 보기
   no_posts: 아직 작성된 글이 없습니다.
   recent_items: 최근 들인 물건들
   recent_reviews: 들이지 않기로 한 물건들
   my_items: 나의 물건들
   no_items: 아직 등록된 물건이 없습니다.
   all_posts: 모든 글
+  all_reviews: 들이지 않기로 한 물건들
   home: 홈으로

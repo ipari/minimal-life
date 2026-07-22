@@ -7,8 +7,9 @@ translation_key: travel-mug
 permalink: /en/items/travel-mug/
 alternate_url: /ko/items/travel-mug/
 thumbnail: /assets/images/travel-mug.svg
-status: "Let go"
+status: "In use"
 category: "Kitchen"
+item_order: 40
 ---
 
 ## Why I considered it
@@ -18,4 +19,3 @@ I bought it to keep drinks warm longer.
 ## Decision
 
 Its weight meant I rarely carried it, so I gave it to someone who needed it more.
-

@@ -8,6 +8,8 @@ alternate_url: /en/items/espresso-machine/
 thumbnail: /assets/images/espresso-machine.svg
 status: "구매하지 않음"
 category: "주방용품"
+reviewed_date: 2026-05-30
+review_summary: "관리와 청소까지 고려해 기존 핸드드립 세트를 계속 사용하기로 했다."
 ---
 
 ## 구매하려던 이유

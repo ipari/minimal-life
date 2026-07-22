@@ -6,8 +6,9 @@ translation_key: umbrella
 permalink: /ko/items/umbrella/
 alternate_url: /en/items/umbrella/
 thumbnail: /assets/images/umbrella.svg
-status: "사용 완료"
+status: "사용 중"
 category: "침구·생활용품"
+item_order: 10
 ---
 
 ## 구매했던 이유

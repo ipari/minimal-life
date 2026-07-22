@@ -6,8 +6,9 @@ translation_key: compact-camera
 permalink: /ko/items/compact-camera/
 alternate_url: /en/items/compact-camera/
 thumbnail: /assets/images/compact-camera.svg
-status: "내보냄"
+status: "사용 중"
 category: "전자기기"
+item_order: 30
 ---
 
 ## 구매했던 이유

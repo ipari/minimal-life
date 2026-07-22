@@ -8,6 +8,7 @@ alternate_url: /en/items/cast-iron-pan/
 thumbnail: /assets/images/cast-iron-pan.svg
 status: "사용 중"
 category: "주방용품"
+item_order: 10
 acquired_date: 2026-06-02
 ---
 

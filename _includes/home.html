@@ -49,6 +49,7 @@
     <li><a href="{{ item.url }}" class="review-item"><div class="review-item-heading"><h3>{{ item.title }}</h3><time datetime="{{ item.reviewed_date | date_to_xmlschema }}">{{ item.reviewed_date | date: "%Y.%m.%d" }}</time></div>{% if item.review_summary %}<p>{{ item.review_summary }}</p>{% endif %}</a></li>
     {% endfor %}
   </ul>
+  <a href="/{{ lang }}/reviews/" class="more-link">{{ t.view_all }} &rarr;</a>
 </section>
 {% endif %}
 
@@ -56,8 +57,12 @@
   <h2 class="section-title">{{ t.my_items }}</h2>
   {% if owned_items.size > 0 %}
   <div class="page-grid">
-    {% for item in owned_items %}
-    <a href="{{ item.url }}" class="page-card"><div class="page-card-thumbnail">{% if item.thumbnail %}<img src="{{ item.thumbnail }}" alt="{{ item.title }}">{% endif %}</div><h3 class="page-card-title">{{ item.title }}</h3>{% if item.category %}<span class="category-badge">{{ item.category }}</span>{% endif %}</a>
+    {% for category in site.data.item_categories %}
+      {% assign category_name = category[lang] %}
+      {% assign category_items = owned_items | where: "category", category_name | sort: "item_order" %}
+      {% for item in category_items %}
+      <a href="{{ item.url }}" class="page-card"><div class="page-card-thumbnail">{% if item.thumbnail %}<img src="{{ item.thumbnail }}" alt="{{ item.title }}">{% endif %}</div><h3 class="page-card-title">{{ item.title }}</h3>{% if item.category %}<span class="category-badge">{{ item.category }}</span>{% endif %}</a>
+      {% endfor %}
     {% endfor %}
   </div>
   {% else %}<p class="empty-state">{{ t.no_items }}</p>{% endif %}

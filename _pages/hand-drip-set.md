@@ -8,6 +8,7 @@ alternate_url: /en/items/hand-drip-set/
 thumbnail: /assets/images/hand-drip-set.svg
 status: "사용 중"
 category: "주방용품"
+item_order: 20
 acquired_date: 2026-05-17
 ---
 

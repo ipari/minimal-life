@@ -6,8 +6,9 @@ translation_key: wall-clock
 permalink: /ko/items/wall-clock/
 alternate_url: /en/items/wall-clock/
 thumbnail: /assets/images/wall-clock.svg
-status: "사용 완료"
+status: "사용 중"
 category: "가구·인테리어"
+item_order: 30
 ---
 
 ## 구매했던 이유

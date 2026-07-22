@@ -6,8 +6,9 @@ translation_key: bluetooth-speaker
 permalink: /ko/items/bluetooth-speaker/
 alternate_url: /en/items/bluetooth-speaker/
 thumbnail: /assets/images/bluetooth-speaker.svg
-status: "사용 완료"
+status: "사용 중"
 category: "전자기기"
+item_order: 20
 ---
 
 ## 구매했던 이유

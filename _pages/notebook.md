@@ -8,6 +8,7 @@ alternate_url: /en/items/notebook/
 thumbnail: /assets/images/notebook.svg
 status: "사용 중"
 category: "문구·사무용품"
+item_order: 10
 ---
 
 ## 제품 정보

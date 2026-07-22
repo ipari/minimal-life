@@ -9,6 +9,7 @@ alternate_url: /ko/items/canvas-tote/
 thumbnail: /assets/images/canvas-tote.svg
 status: "In use"
 category: "Bags & accessories"
+item_order: 20
 ---
 
 ## Why I considered it
@@ -18,4 +19,3 @@ I needed a light bag for groceries and short outings.
 ## Decision
 
 I chose a plain, washable tote that folds flat for storage.
-

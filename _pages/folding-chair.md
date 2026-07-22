@@ -6,8 +6,9 @@ translation_key: folding-chair
 permalink: /ko/items/folding-chair/
 alternate_url: /en/items/folding-chair/
 thumbnail: /assets/images/folding-chair.svg
-status: "내보냄"
+status: "사용 중"
 category: "가구·인테리어"
+item_order: 20
 ---
 
 ## 구매했던 이유

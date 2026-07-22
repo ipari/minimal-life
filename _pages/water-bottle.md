@@ -8,6 +8,7 @@ alternate_url: /en/items/water-bottle/
 thumbnail: /assets/images/water-bottle.svg
 status: "사용 중"
 category: "주방용품"
+item_order: 30
 acquired_date: 2026-07-18
 ---
 

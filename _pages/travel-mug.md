@@ -6,8 +6,9 @@ translation_key: travel-mug
 permalink: /ko/items/travel-mug/
 alternate_url: /en/items/travel-mug/
 thumbnail: /assets/images/travel-mug.svg
-status: "내보냄"
+status: "사용 중"
 category: "주방용품"
+item_order: 40
 ---
 
 ## 구매했던 이유

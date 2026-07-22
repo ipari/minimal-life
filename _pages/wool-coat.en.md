@@ -9,6 +9,7 @@ alternate_url: /ko/items/wool-coat/
 thumbnail: /assets/images/wool-coat.svg
 status: "In use"
 category: "Clothing & footwear"
+item_order: 10
 acquired_date: 2026-06-24
 ---
 
@@ -19,4 +20,3 @@ I needed one winter coat for both work and formal occasions.
 ## Decision
 
 I chose a timeless color and a simple design that is easy to alter and repair.
-
