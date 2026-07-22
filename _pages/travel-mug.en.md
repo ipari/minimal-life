@@ -14,10 +14,23 @@ item_order: 40
 acquired_date: 2024-11-16
 ---
 
-## Why I considered it
+## Why I Needed It
 
-I bought it to keep drinks warm longer.
+I wanted to reduce reheating coffee and using disposable cups while out. The container had to retain heat and remain leakproof inside a bag.
 
-## Decision
+## Why I Chose This Model
 
-Its weight meant I rarely carried it, so I gave it to someone who needed it more.
+The 480 ml capacity holds one generous drink, while the slim body fits a side pocket. Its locking one-touch lid and low weight felt more practical than heavier flasks.
+
+### Other Models I Considered
+
+- Stanley Trigger Action 16oz — durable, but heavy and wide.
+- Kinto Travel Tumbler 500ml — pleasant to drink from, but not one-handed.
+
+## What It Has Been Like to Use
+
+Coffee made in the morning stays warm into the afternoon, and it has never leaked in my bag. The lid needs careful cleaning, but its parts are simple to disassemble.
+
+## Purchase Link
+
+[View retailer](https://example.com/shop/travel-mug)

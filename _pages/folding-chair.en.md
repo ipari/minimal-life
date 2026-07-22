@@ -14,10 +14,23 @@ item_order: 20
 acquired_date: 2023-06-05
 ---
 
-## Why I considered it
+## Why I Needed It
 
-I thought I needed a spare chair for visitors.
+I needed an occasional chair for guests and reading on the balcony, compact enough to disappear into a cupboard between uses.
 
-## Decision
+## Why I Chose This Model
 
-Floor cushions were enough, and the chair consumed more storage space than it was worth.
+It is light yet stable for an adult, packs into a small pouch, and has replaceable components. That made it more appealing than a conventional folding chair.
+
+### Other Models I Considered
+
+- Snow Peak Low Beach Chair — comfortable, but bulky when folded.
+- Coleman Compact Folding Chair — affordable, but heavier and longer when packed.
+
+## What It Has Been Like to Use
+
+Assembly was tight at first, but after a few uses it takes less than a minute. The low seat is unsuitable for desk work, yet very comfortable as an occasional lounge chair.
+
+## Purchase Link
+
+[View retailer](https://example.com/shop/folding-chair)

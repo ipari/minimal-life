@@ -14,10 +14,23 @@ item_order: 30
 acquired_date: 2024-04-12
 ---
 
-## Why I considered it
+## Why I Needed It
 
-I wanted to record everyday life at a higher quality than my phone.
+I wanted a camera that encouraged more deliberate shooting than a phone while remaining easy to carry every day.
 
-## Decision
+## Why I Chose This Model
 
-My phone won on both portability and frequency of use, so I sold the camera secondhand.
+Its APS-C sensor and fixed 28mm-equivalent lens offered the simplest capable setup. I valued being able to pull it from a pocket and shoot without choosing lenses.
+
+### Other Models I Considered
+
+- Fujifilm X100V — lovely viewfinder, but larger and difficult to find.
+- Sony RX100 VII — versatile zoom, but less appealing controls and low-light output.
+
+## What It Has Been Like to Use
+
+Startup is quick and the monochrome JPEG settings are satisfying. Battery life is modest and stabilization has limits, but its portability has greatly increased how often I take photographs.
+
+## Purchase Link
+
+[View retailer](https://example.com/shop/compact-camera)

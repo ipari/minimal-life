@@ -14,10 +14,23 @@ item_order: 20
 acquired_date: 2023-08-20
 ---
 
-## Why I considered it
+## Why I Needed It
 
-I chose a small speaker so I could listen to music anywhere at home.
+I wanted fuller sound than a phone speaker and one portable speaker I could move between the living room and workspace.
 
-## Decision
+## Why I Chose This Model
 
-The battery no longer charges. I will check whether it can be repaired before deciding what to do.
+It offered enough bass for its size, water resistance for worry-free kitchen use, simple physical controls, and USB-C charging.
+
+### Other Models I Considered
+
+- Sony SRS-XB100 — smaller, but less room-filling.
+- Bose SoundLink Flex — excellent sound, but over budget.
+
+## What It Has Been Like to Use
+
+Voices remain clear at moderate volume and the battery comfortably lasts a weekend. Bass is slightly prominent at low volume, but it works very well for casual listening at home.
+
+## Purchase Link
+
+[View retailer](https://example.com/shop/bluetooth-speaker)

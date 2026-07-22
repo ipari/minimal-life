@@ -14,10 +14,23 @@ item_order: 20
 acquired_date: 2025-12-05
 ---
 
-## Why I considered it
+## Why I Needed It
 
-I chose one refillable fountain pen instead of ten ballpoint pens.
+I wanted one refillable writing tool instead of cycling through disposable pens. A relaxed grip for longer writing sessions also mattered.
 
-## Decision
+## Why I Chose This Model
 
-It becomes more familiar with time. A little regular care extends the life of an object.
+The triangular grip guides finger placement and it accepts both cartridges and a converter. Readily available nibs and parts mean a small failure does not require replacing the whole pen.
+
+### Other Models I Considered
+
+- Kaweco Sport — highly portable, but short for extended writing.
+- Pilot Metropolitan — smooth, but its metal body felt heavy.
+
+## What It Has Been Like to Use
+
+It is light with consistent ink flow, so writing a full page remains comfortable. The nib dries if left uncapped, but closing it promptly has made that a minor issue.
+
+## Purchase Link
+
+[View retailer](https://example.com/shop/pen)

@@ -14,10 +14,23 @@ item_order: 10
 acquired_date: 2025-07-02
 ---
 
-## Why I considered it
+## Why I Needed It
 
-I needed a light umbrella that could always stay in my bag.
+I needed an umbrella light enough to remain in my bag on uncertain days. It should not feel like unnecessary luggage when the forecast stayed dry.
 
-## Decision
+## Why I Chose This Model
 
-One rib is bent. I am looking for a repair shop that can replace the part.
+It folds short, weighs around 200 grams, and still has a comfortable handle. The relatively simple rib structure also seemed easier to dry and maintain.
+
+### Other Models I Considered
+
+- Montbell Travel Umbrella — even lighter, but with a smaller canopy.
+- Blunt Metro — stronger in wind, but much heavier and bulkier.
+
+## What It Has Been Like to Use
+
+It almost disappears in my bag, so I actually carry it every day. Strong gusts reveal its limits, but it is adequate for normal rain and dries quickly afterward.
+
+## Purchase Link
+
+[View retailer](https://example.com/shop/umbrella)

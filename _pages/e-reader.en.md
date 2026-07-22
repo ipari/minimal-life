@@ -14,10 +14,23 @@ item_order: 10
 acquired_date: 2025-01-15
 ---
 
-## Why I considered it
+## Why I Needed It
 
-I wanted to keep reading without adding more bookshelf space.
+I wanted to read consistently during my commute without adding more bookshelves. Escaping phone notifications before bed was another goal.
 
-## Decision
+## Why I Chose This Model
 
-I chose a notification-free monochrome e-ink model that is comfortable on the eyes.
+The six-inch e-ink screen is easy to hold with one hand, and it includes water resistance and adjustable warm lighting. Straightforward EPUB management also mattered.
+
+### Other Models I Considered
+
+- Kindle Paperwhite — larger screen, but more cumbersome file management.
+- Kobo Libra 2 — useful page buttons, but too large for my pocket.
+
+## What It Has Been Like to Use
+
+It is lighter than most books and remains clear in sunlight, so I read more while traveling. Page turns are slower than a tablet, but that limitation helps me focus on reading.
+
+## Purchase Link
+
+[View retailer](https://example.com/shop/e-reader)

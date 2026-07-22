@@ -14,10 +14,23 @@ item_order: 10
 acquired_date: 2025-03-10
 ---
 
-## Why I considered it
+## Why I Needed It
 
-A 20L charcoal-gray waterproof backpack for both daily life and travel.
+I wanted one bag to handle commuting, a laptop, a water bottle, and an occasional overnight trip. The main goal was to avoid owning several bags with overlapping roles.
 
-## Decision
+## Why I Chose This Model
 
-After two years of daily use, it is still sturdy. One good object can replace several ordinary ones.
+Its 20-liter size felt small enough for daily use but sufficient for short trips. I also liked the low weight, separate laptop sleeve, and plain exterior.
+
+### Other Models I Considered
+
+- Bellroy Classic Backpack Compact — better finish, but less room.
+- Fjällräven Räven 20 — useful organization, but visually busier.
+
+## What It Has Been Like to Use
+
+After about six months of daily use, it sits close to my back and never feels bulky on the train. It keeps its shape with a light load, and the bright lining makes small items easy to find.
+
+## Purchase Link
+
+[View retailer](https://example.com/shop/backpack)

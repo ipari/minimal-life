@@ -14,10 +14,23 @@ item_order: 10
 acquired_date: 2024-01-28
 ---
 
-## Why I considered it
+## Why I Needed It
 
-I needed a small light that illuminated only my desk at night.
+I needed task lighting for books and a keyboard without illuminating the entire room at night. Reducing screen glare and eye strain was the priority.
 
-## Decision
+## Why I Chose This Model
 
-It overlapped with my monitor light, so I kept the one I used more often.
+The wide head spreads light evenly, while brightness and color temperature can be adjusted separately. Its broad articulation also accommodates both reading and computer work.
+
+### Other Models I Considered
+
+- Dyson Lightcycle — precise, but far too expensive.
+- IKEA NÄVLINGE — simple and affordable, but limited adjustment.
+
+## What It Has Been Like to Use
+
+The transition between lit and unlit areas is soft, so long reading sessions feel easier on the eyes. It is large and heavy, but once positioned it remains reassuringly stable.
+
+## Purchase Link
+
+[View retailer](https://example.com/shop/desk-lamp)

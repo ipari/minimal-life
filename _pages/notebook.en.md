@@ -14,10 +14,23 @@ item_order: 10
 acquired_date: 2026-02-14
 ---
 
-## Why I considered it
+## Why I Needed It
 
-An A5, 192-page plain notebook that keeps handwriting present in a digital life.
+I wanted one place for tasks and thoughts outside phone apps, and a visible record of maintaining a writing habit.
 
-## Decision
+## Why I Chose This Model
 
-I write three tasks in the morning, one gratitude at night, and ideas whenever they arrive.
+A5 fits both desk and bag, while numbered pages and an index make older notes easy to find. The hard cover and lay-flat binding suit daily use.
+
+### Other Models I Considered
+
+- Moleskine Classic A5 — familiar, but its paper showed more ink bleed-through.
+- Midori MD Notebook A5 — excellent paper, but I wanted a hard cover.
+
+## What It Has Been Like to Use
+
+Fountain-pen ink behaves well and the pages lie open for everything from quick notes to weekly reviews. It is slightly heavy, but carrying one notebook has reduced the rest of my stationery.
+
+## Purchase Link
+
+[View retailer](https://example.com/shop/notebook)
