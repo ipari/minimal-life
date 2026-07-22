@@ -256,13 +256,15 @@ body {
 .page-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  column-gap: 1.5rem;
+  row-gap: 2.25rem;
 }
 
 @media (max-width: 600px) {
   .page-grid {
     grid-template-columns: repeat(3, 1fr);
-    gap: 0.5rem;
+    column-gap: 0.5rem;
+    row-gap: 1.25rem;
   }
 
   .page-card-thumbnail {
@@ -325,7 +327,7 @@ body {
 
 .page-card .category-badge {
   display: table;
-  margin: 0.4rem auto 0;
+  margin: 2px auto 0;
 }
 
 /* Post Page */
