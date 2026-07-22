@@ -13,6 +13,7 @@ en:
   all_reviews: All reviewed items
   acquired_date: Acquired
   home: Home
+  back: Back
 ko:
   site_title: 미니멀 라이프
   description: 덜어내며 살아가는 일상의 기록
@@ -28,3 +29,4 @@ ko:
   all_reviews: 들이지 않기로 한 물건들
   acquired_date: 들임
   home: 홈으로
+  back: 뒤로 가기

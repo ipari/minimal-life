@@ -18,6 +18,12 @@
 
     <main class="content">
       {{ content }}
+      {% capture home_url %}/{{ lang }}/{% endcapture %}
+      {% unless page.url == home_url %}
+      <nav class="back-nav" aria-label="{{ t.back }}">
+        <a href="{{ home_url }}" onclick="if (document.referrer.startsWith(window.location.origin + '/')) { history.back(); return false; }">&larr; {{ t.back }}</a>
+      </nav>
+      {% endunless %}
     </main>
 
     <footer class="site-footer">
