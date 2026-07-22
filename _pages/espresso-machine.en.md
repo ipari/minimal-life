@@ -11,7 +11,7 @@ model: "Breville Bambino Plus"
 status: "Not purchased"
 category: "Kitchen"
 reviewed_date: 2026-05-30
-review_summary: "I kept the hand-drip set after considering maintenance and cleaning."
+review_summary: "I considered buying it to make espresso at home, but..."
 ---
 
 ## Why I considered it

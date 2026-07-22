@@ -10,7 +10,7 @@ model: "FlexiSpot E7"
 status: "구매하지 않음"
 category: "가구·인테리어"
 reviewed_date: 2026-06-15
-review_summary: "새 가구보다 자주 움직이는 습관을 선택했다."
+review_summary: "앉아 있는 시간을 줄이기 위해 구매하려고 했으나..."
 ---
 
 ## 구매하려던 이유

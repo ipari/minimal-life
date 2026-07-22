@@ -11,7 +11,7 @@ model: "Roborock Q8 Max"
 status: "Not purchased"
 category: "Electronics"
 reviewed_date: 2026-06-28
-review_summary: "My existing cleaning routine was simpler for a small space."
+review_summary: "I considered buying it to save time on daily cleaning, but..."
 ---
 
 ## Why I considered it

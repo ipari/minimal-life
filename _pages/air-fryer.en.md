@@ -11,7 +11,7 @@ model: "Philips Airfryer HD9252/90"
 status: "Not purchased"
 category: "Kitchen"
 reviewed_date: 2026-07-21
-review_summary: "The oven and frying pan I already own were enough."
+review_summary: "I considered buying it to make quick meals, but..."
 ---
 
 ## Why I considered it

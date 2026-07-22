@@ -11,7 +11,7 @@ model: "FlexiSpot E7"
 status: "Not purchased"
 category: "Furniture & interior"
 reviewed_date: 2026-06-15
-review_summary: "I chose the habit of moving often instead of buying new furniture."
+review_summary: "I considered buying it to sit less, but..."
 ---
 
 ## Why I considered it

@@ -10,7 +10,7 @@ model: "Roborock Q8 Max"
 status: "구매하지 않음"
 category: "전자기기"
 reviewed_date: 2026-06-28
-review_summary: "작은 공간에는 기존 청소 방식이 더 단순했다."
+review_summary: "매일 청소하는 시간을 줄이기 위해 구매하려고 했으나..."
 ---
 
 ## 구매하려던 이유

@@ -10,7 +10,7 @@ model: "iPad Air 11-inch (M2)"
 status: "구매하지 않음"
 category: "전자기기"
 reviewed_date: 2026-07-12
-review_summary: "노트북과 전자책 리더가 같은 필요를 채우고 있었다."
+review_summary: "영상 시청과 필기를 분리하기 위해 구매하려고 했으나..."
 ---
 
 ## 구매하려던 이유

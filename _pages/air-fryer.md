@@ -10,7 +10,7 @@ model: "Philips Airfryer HD9252/90"
 status: "구매하지 않음"
 category: "주방용품"
 reviewed_date: 2026-07-21
-review_summary: "기존 오븐과 프라이팬으로 충분해 구매하지 않았다."
+review_summary: "간단한 요리를 빠르게 만들기 위해 구매하려고 했으나..."
 ---
 
 ## 구매하려던 이유

@@ -11,7 +11,7 @@ model: "iPad Air 11-inch (M2)"
 status: "Not purchased"
 category: "Electronics"
 reviewed_date: 2026-07-12
-review_summary: "My laptop and e-reader already met the same needs."
+review_summary: "I considered buying it to separate viewing and note-taking, but..."
 ---
 
 ## Why I considered it
