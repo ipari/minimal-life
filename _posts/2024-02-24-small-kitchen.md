@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "주방 도구를 줄인 기준"
+lang: ko
+translation_key: small-kitchen
+permalink: /ko/posts/small-kitchen/
+alternate_url: /en/posts/small-kitchen/
 date: 2024-02-24
 ---
 

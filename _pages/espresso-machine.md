@@ -1,8 +1,13 @@
 ---
 title: "에스프레소 머신"
+lang: ko
+kind: item
+translation_key: espresso-machine
+permalink: /ko/items/espresso-machine/
+alternate_url: /en/items/espresso-machine/
 thumbnail: /assets/images/espresso-machine.svg
-status: "고민 후 구매 안함"
-category: "가전"
+status: "구매하지 않음"
+category: "주방용품"
 ---
 
 ## 구매하려던 이유

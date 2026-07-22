@@ -1,7 +1,12 @@
 ---
 title: "유선 헤드폰"
+lang: ko
+kind: item
+translation_key: headphones
+permalink: /ko/items/headphones/
+alternate_url: /en/items/headphones/
 thumbnail: /assets/images/headphones.svg
-status: "고장"
+status: "사용 완료"
 category: "전자기기"
 ---
 

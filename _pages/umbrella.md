@@ -1,8 +1,13 @@
 ---
 title: "접이식 우산"
+lang: ko
+kind: item
+translation_key: umbrella
+permalink: /ko/items/umbrella/
+alternate_url: /en/items/umbrella/
 thumbnail: /assets/images/umbrella.svg
-status: "고장"
-category: "생활"
+status: "사용 완료"
+category: "침구·생활용품"
 ---
 
 ## 구매했던 이유

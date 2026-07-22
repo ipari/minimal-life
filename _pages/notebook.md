@@ -1,6 +1,13 @@
 ---
 title: "노트북"
+lang: ko
+kind: item
+translation_key: notebook
+permalink: /ko/items/notebook/
+alternate_url: /en/items/notebook/
 thumbnail: /assets/images/notebook.svg
+status: "사용 중"
+category: "문구·사무용품"
 ---
 
 ## 제품 정보

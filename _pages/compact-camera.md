@@ -1,5 +1,10 @@
 ---
 title: "콤팩트 카메라"
+lang: ko
+kind: item
+translation_key: compact-camera
+permalink: /ko/items/compact-camera/
+alternate_url: /en/items/compact-camera/
 thumbnail: /assets/images/compact-camera.svg
 status: "내보냄"
 category: "전자기기"

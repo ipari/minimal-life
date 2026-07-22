@@ -1,8 +1,15 @@
 ---
 title: "높이 조절 책상"
+lang: ko
+kind: item
+translation_key: standing-desk
+permalink: /ko/items/standing-desk/
+alternate_url: /en/items/standing-desk/
 thumbnail: /assets/images/standing-desk.svg
-status: "고민 후 구매 안함"
-category: "가구"
+status: "구매하지 않음"
+category: "가구·인테리어"
+reviewed_date: 2026-06-15
+review_summary: "새 가구보다 자주 움직이는 습관을 선택했다."
 ---
 
 ## 구매하려던 이유

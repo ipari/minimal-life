@@ -1,8 +1,14 @@
 ---
 title: "무쇠 프라이팬"
+lang: ko
+kind: item
+translation_key: cast-iron-pan
+permalink: /ko/items/cast-iron-pan/
+alternate_url: /en/items/cast-iron-pan/
 thumbnail: /assets/images/cast-iron-pan.svg
-status: "보유"
-category: "주방"
+status: "사용 중"
+category: "주방용품"
+acquired_date: 2026-06-02
 ---
 
 ## 구매하려던 이유

@@ -1,8 +1,15 @@
 ---
 title: "로봇청소기"
+lang: ko
+kind: item
+translation_key: robot-vacuum
+permalink: /ko/items/robot-vacuum/
+alternate_url: /en/items/robot-vacuum/
 thumbnail: /assets/images/robot-vacuum.svg
-status: "고민 후 구매 안함"
-category: "가전"
+status: "구매하지 않음"
+category: "전자기기"
+reviewed_date: 2026-06-28
+review_summary: "작은 공간에는 기존 청소 방식이 더 단순했다."
 ---
 
 ## 구매하려던 이유

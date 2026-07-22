@@ -1,8 +1,14 @@
 ---
 title: "울 코트"
+lang: ko
+kind: item
+translation_key: wool-coat
+permalink: /ko/items/wool-coat/
+alternate_url: /en/items/wool-coat/
 thumbnail: /assets/images/wool-coat.svg
-status: "보유"
-category: "의류"
+status: "사용 중"
+category: "의류·신발"
+acquired_date: 2026-06-24
 ---
 
 ## 구매하려던 이유

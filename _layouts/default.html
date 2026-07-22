@@ -1,16 +1,24 @@
+{% assign lang = page.lang | default: "en" %}
+{% assign t = site.data.ui[lang] %}
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="{{ lang }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ t.site_title }}</title>
+  <meta name="description" content="{{ t.description }}">
+  {% if page.alternate_url %}<link rel="alternate" hreflang="{% if lang == 'ko' %}en{% else %}ko{% endif %}" href="{{ page.alternate_url | absolute_url }}">{% endif %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
   <div class="container">
     <header class="site-header">
-      <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+      <a href="/{{ lang }}/" class="site-title">{{ t.site_title }}</a>
+      <nav class="language-switcher" aria-label="Language">
+        {% if page.alternate_url %}
+        <a href="{{ page.alternate_url }}" lang="{% if lang == 'ko' %}en{% else %}ko{% endif %}">{% if lang == 'ko' %}English{% else %}한국어{% endif %}</a>
+        {% endif %}
+      </nav>
     </header>
 
     <main class="content">
@@ -18,7 +26,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ t.site_title }}</p>
     </footer>
   </div>
 </body>

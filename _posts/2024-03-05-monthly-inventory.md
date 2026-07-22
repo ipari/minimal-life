@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "한 달에 한 번 물건 점검하기"
+lang: ko
+translation_key: monthly-inventory
+permalink: /ko/posts/monthly-inventory/
+alternate_url: /en/posts/monthly-inventory/
 date: 2024-03-05
 ---
 

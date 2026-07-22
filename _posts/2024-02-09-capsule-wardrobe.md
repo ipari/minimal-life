@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "작은 옷장으로 한 달 살기"
+lang: ko
+translation_key: capsule-wardrobe
+permalink: /ko/posts/capsule-wardrobe/
+alternate_url: /en/posts/capsule-wardrobe/
 date: 2024-02-09
 ---
 

@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "교체하기 전에 수리하기"
+lang: ko
+translation_key: repair-first
+permalink: /ko/posts/repair-first/
+alternate_url: /en/posts/repair-first/
 date: 2024-02-14
 ---
 

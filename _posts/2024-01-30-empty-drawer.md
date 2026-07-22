@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "서랍 하나를 비워두는 연습"
+lang: ko
+translation_key: empty-drawer
+permalink: /ko/posts/empty-drawer/
+alternate_url: /en/posts/empty-drawer/
 date: 2024-01-30
 ---
 

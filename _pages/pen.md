@@ -1,6 +1,13 @@
 ---
 title: "펜"
+lang: ko
+kind: item
+translation_key: pen
+permalink: /ko/items/pen/
+alternate_url: /en/items/pen/
 thumbnail: /assets/images/pen.svg
+status: "사용 중"
+category: "문구·사무용품"
 ---
 
 ## 제품 정보

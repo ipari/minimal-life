@@ -1,7 +1,12 @@
 ---
 title: "블루투스 스피커"
+lang: ko
+kind: item
+translation_key: bluetooth-speaker
+permalink: /ko/items/bluetooth-speaker/
+alternate_url: /en/items/bluetooth-speaker/
 thumbnail: /assets/images/bluetooth-speaker.svg
-status: "고장"
+status: "사용 완료"
 category: "전자기기"
 ---
 

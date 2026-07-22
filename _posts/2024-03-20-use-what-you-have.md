@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "이미 가진 것을 끝까지 쓰기"
+lang: ko
+translation_key: use-what-you-have
+permalink: /ko/posts/use-what-you-have/
+alternate_url: /en/posts/use-what-you-have/
 date: 2024-03-20
 ---
 

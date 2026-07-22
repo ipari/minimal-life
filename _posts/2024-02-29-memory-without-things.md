@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "추억은 사진 한 장으로"
+lang: ko
+translation_key: memory-without-things
+permalink: /ko/posts/memory-without-things/
+alternate_url: /en/posts/memory-without-things/
 date: 2024-02-29
 ---
 

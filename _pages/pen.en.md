@@ -1,0 +1,21 @@
+---
+layout: page
+title: "Fountain Pen"
+lang: en
+kind: item
+translation_key: pen
+permalink: /en/items/pen/
+alternate_url: /ko/items/pen/
+thumbnail: /assets/images/pen.svg
+status: "In use"
+category: "Stationery & office"
+---
+
+## Why I considered it
+
+I chose one refillable fountain pen instead of ten ballpoint pens.
+
+## Decision
+
+It becomes more familiar with time. A little regular care extends the life of an object.
+

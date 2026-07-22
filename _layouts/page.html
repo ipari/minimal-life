@@ -4,6 +4,12 @@ layout: default
 <article class="page">
   <header class="page-header">
     <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.category or page.status %}
+    <div class="page-meta">
+      {% if page.category %}<span class="category-badge">{{ page.category }}</span>{% endif %}
+      {% if page.status %}<span class="status-badge">{{ page.status }}</span>{% endif %}
+    </div>
+    {% endif %}
   </header>
 
   {% if page.thumbnail %}
@@ -17,6 +23,6 @@ layout: default
   </div>
 
   <nav class="page-nav">
-    <a href="{{ '/' | relative_url }}">&larr; 홈으로</a>
+    <a href="/{{ page.lang }}/">&larr; {{ site.data.ui[page.lang].home }}</a>
   </nav>
 </article>

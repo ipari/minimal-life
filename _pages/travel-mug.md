@@ -1,8 +1,13 @@
 ---
 title: "보온 텀블러"
+lang: ko
+kind: item
+translation_key: travel-mug
+permalink: /ko/items/travel-mug/
+alternate_url: /en/items/travel-mug/
 thumbnail: /assets/images/travel-mug.svg
 status: "내보냄"
-category: "주방"
+category: "주방용품"
 ---
 
 ## 구매했던 이유

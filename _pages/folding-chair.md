@@ -1,8 +1,13 @@
 ---
 title: "접이식 의자"
+lang: ko
+kind: item
+translation_key: folding-chair
+permalink: /ko/items/folding-chair/
+alternate_url: /en/items/folding-chair/
 thumbnail: /assets/images/folding-chair.svg
 status: "내보냄"
-category: "가구"
+category: "가구·인테리어"
 ---
 
 ## 구매했던 이유

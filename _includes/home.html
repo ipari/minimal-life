@@ -1,0 +1,64 @@
+{% assign lang = page.lang %}
+{% assign t = site.data.ui[lang] %}
+{% assign localized_posts = site.posts | where: "lang", lang %}
+{% assign localized_items = site.pages | where: "lang", lang | where: "kind", "item" %}
+{% if lang == "ko" %}
+  {% assign active_status = "사용 중" %}
+{% else %}
+  {% assign active_status = "In use" %}
+{% endif %}
+{% assign owned_items = localized_items | where: "status", active_status %}
+
+<section class="home-section">
+  <h2 class="section-title">{{ t.recent_posts }}</h2>
+  {% assign recent_posts = localized_posts | slice: 0, 3 %}
+  {% if recent_posts.size > 0 %}
+  <ul class="post-list">
+    {% for post in recent_posts %}
+    <li class="post-item">
+      <h3 class="post-item-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <time class="post-item-date" datetime="{{ post.date | date_to_xmlschema }}">{% if lang == "ko" %}{{ post.date | date: "%Y년 %m월 %d일" }}{% else %}{{ post.date | date: "%b %-d, %Y" }}{% endif %}</time>
+    </li>
+    {% endfor %}
+  </ul>
+  <a href="/{{ lang }}/posts/" class="more-link">{{ t.more }} &rarr;</a>
+  {% else %}<p class="empty-state">{{ t.no_posts }}</p>{% endif %}
+</section>
+
+{% assign acquired_items = localized_items | where_exp: "item", "item.acquired_date" | sort: "acquired_date" | reverse %}
+{% if acquired_items.size > 0 %}
+<section class="home-section">
+  <h2 class="section-title">{{ t.recent_items }}</h2>
+  <div class="recent-item-grid">
+    {% for item in acquired_items limit: 3 %}
+    <a href="{{ item.url }}" class="recent-item-card">
+      <div class="recent-item-thumbnail">{% if item.thumbnail %}<img src="{{ item.thumbnail }}" alt="{{ item.title }}">{% endif %}</div>
+      <div class="recent-item-info"><h3>{{ item.title }}</h3><p>{{ item.category }} · {{ item.acquired_date | date: "%Y.%m.%d" }}</p></div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% assign reviewed_items = localized_items | where_exp: "item", "item.reviewed_date" | sort: "reviewed_date" | reverse %}
+{% if reviewed_items.size > 0 %}
+<section class="home-section">
+  <h2 class="section-title">{{ t.recent_reviews }}</h2>
+  <ul class="review-list">
+    {% for item in reviewed_items limit: 3 %}
+    <li><a href="{{ item.url }}" class="review-item"><div class="review-item-heading"><h3>{{ item.title }}</h3><time datetime="{{ item.reviewed_date | date_to_xmlschema }}">{{ item.reviewed_date | date: "%Y.%m.%d" }}</time></div>{% if item.review_summary %}<p>{{ item.review_summary }}</p>{% endif %}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<section class="home-section">
+  <h2 class="section-title">{{ t.my_items }}</h2>
+  {% if owned_items.size > 0 %}
+  <div class="page-grid">
+    {% for item in owned_items %}
+    <a href="{{ item.url }}" class="page-card"><div class="page-card-thumbnail">{% if item.thumbnail %}<img src="{{ item.thumbnail }}" alt="{{ item.title }}">{% endif %}</div><h3 class="page-card-title">{{ item.title }}</h3>{% if item.category %}<span class="category-badge">{{ item.category }}</span>{% endif %}</a>
+    {% endfor %}
+  </div>
+  {% else %}<p class="empty-state">{{ t.no_items }}</p>{% endif %}
+</section>

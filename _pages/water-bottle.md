@@ -1,8 +1,14 @@
 ---
 title: "스테인리스 물병"
+lang: ko
+kind: item
+translation_key: water-bottle
+permalink: /ko/items/water-bottle/
+alternate_url: /en/items/water-bottle/
 thumbnail: /assets/images/water-bottle.svg
-status: "보유"
-category: "주방"
+status: "사용 중"
+category: "주방용품"
+acquired_date: 2026-07-18
 ---
 
 ## 구매하려던 이유

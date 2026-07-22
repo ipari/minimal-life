@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "수납이 아니라 생활을 위한 공간"
+lang: ko
+translation_key: space-for-living
+permalink: /ko/posts/space-for-living/
+alternate_url: /en/posts/space-for-living/
 date: 2024-03-25
 ---
 

@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "하나를 들이면 하나를 보낸다"
+lang: ko
+translation_key: one-in-one-out
+permalink: /ko/posts/one-in-one-out/
+alternate_url: /en/posts/one-in-one-out/
 date: 2024-01-25
 ---
 

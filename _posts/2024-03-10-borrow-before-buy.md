@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "구매 전에 빌려 써보기"
+lang: ko
+translation_key: borrow-before-buy
+permalink: /ko/posts/borrow-before-buy/
+alternate_url: /en/posts/borrow-before-buy/
 date: 2024-03-10
 ---
 

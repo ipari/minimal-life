@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "사기 전에 일주일 기다리기"
+lang: ko
+translation_key: seven-day-rule
+permalink: /ko/posts/seven-day-rule/
+alternate_url: /en/posts/seven-day-rule/
 date: 2024-02-04
 ---
 

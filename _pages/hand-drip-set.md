@@ -1,8 +1,14 @@
 ---
 title: "핸드드립 세트"
+lang: ko
+kind: item
+translation_key: hand-drip-set
+permalink: /ko/items/hand-drip-set/
+alternate_url: /en/items/hand-drip-set/
 thumbnail: /assets/images/hand-drip-set.svg
-status: "보유"
-category: "주방"
+status: "사용 중"
+category: "주방용품"
+acquired_date: 2026-05-17
 ---
 
 ## 구매하려던 이유

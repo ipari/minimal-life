@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "아무것도 사지 않는 주말"
+lang: ko
+translation_key: no-buy-weekend
+permalink: /ko/posts/no-buy-weekend/
+alternate_url: /en/posts/no-buy-weekend/
 date: 2024-02-19
 ---
 

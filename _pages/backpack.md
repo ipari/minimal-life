@@ -1,6 +1,13 @@
 ---
 title: "백팩"
+lang: ko
+kind: item
+translation_key: backpack
+permalink: /ko/items/backpack/
+alternate_url: /en/items/backpack/
 thumbnail: /assets/images/backpack.svg
+status: "사용 중"
+category: "가방·액세서리"
 ---
 
 ## 제품 정보

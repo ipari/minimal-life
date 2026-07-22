@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "양보다 질"
+lang: ko
+translation_key: quality-over-quantity
+permalink: /ko/posts/quality-over-quantity/
+alternate_url: /en/posts/quality-over-quantity/
 date: 2024-01-20
 ---
 

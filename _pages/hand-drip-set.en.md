@@ -1,0 +1,22 @@
+---
+layout: page
+title: "Hand-Drip Set"
+lang: en
+kind: item
+translation_key: hand-drip-set
+permalink: /en/items/hand-drip-set/
+alternate_url: /ko/items/hand-drip-set/
+thumbnail: /assets/images/hand-drip-set.svg
+status: "In use"
+category: "Kitchen"
+acquired_date: 2026-05-17
+---
+
+## Why I considered it
+
+I wanted to drink coffee at home while reducing capsules and packaging waste.
+
+## Decision
+
+I chose the simplest setup: only filters and a dripper.
+

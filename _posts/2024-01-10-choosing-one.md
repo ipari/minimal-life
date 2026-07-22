@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "하나를 선택하는 것"
+lang: ko
+translation_key: choosing-one
+permalink: /ko/posts/choosing-one/
+alternate_url: /en/posts/choosing-one/
 date: 2024-01-10
 ---
 

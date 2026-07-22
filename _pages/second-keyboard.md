@@ -1,5 +1,10 @@
 ---
 title: "보조 키보드"
+lang: ko
+kind: item
+translation_key: second-keyboard
+permalink: /ko/items/second-keyboard/
+alternate_url: /en/items/second-keyboard/
 thumbnail: /assets/images/keyboard.svg
 status: "내보냄"
 category: "전자기기"

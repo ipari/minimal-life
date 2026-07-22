@@ -1,8 +1,15 @@
 ---
 title: "태블릿"
+lang: ko
+kind: item
+translation_key: tablet
+permalink: /ko/items/tablet/
+alternate_url: /en/items/tablet/
 thumbnail: /assets/images/tablet.svg
-status: "고민 후 구매 안함"
+status: "구매하지 않음"
 category: "전자기기"
+reviewed_date: 2026-07-12
+review_summary: "노트북과 전자책 리더가 같은 필요를 채우고 있었다."
 ---
 
 ## 구매하려던 이유

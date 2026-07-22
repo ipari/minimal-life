@@ -1,8 +1,13 @@
 ---
 title: "벽시계"
+lang: ko
+kind: item
+translation_key: wall-clock
+permalink: /ko/items/wall-clock/
+alternate_url: /en/items/wall-clock/
 thumbnail: /assets/images/wall-clock.svg
-status: "고장"
-category: "생활"
+status: "사용 완료"
+category: "가구·인테리어"
 ---
 
 ## 구매했던 이유

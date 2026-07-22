@@ -1,8 +1,13 @@
 ---
 title: "캔버스 토트백"
+lang: ko
+kind: item
+translation_key: canvas-tote
+permalink: /ko/items/canvas-tote/
+alternate_url: /en/items/canvas-tote/
 thumbnail: /assets/images/canvas-tote.svg
-status: "보유"
-category: "가방"
+status: "사용 중"
+category: "가방·액세서리"
 ---
 
 ## 구매하려던 이유

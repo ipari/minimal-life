@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "미니멀리즘을 시작하며"
+lang: ko
+translation_key: minimalism-start
+permalink: /ko/posts/minimalism-start/
+alternate_url: /en/posts/minimalism-start/
 date: 2024-01-01
 ---
 

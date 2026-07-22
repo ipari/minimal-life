@@ -1,7 +1,12 @@
 ---
 title: "전자책 리더"
+lang: ko
+kind: item
+translation_key: e-reader
+permalink: /ko/items/e-reader/
+alternate_url: /en/items/e-reader/
 thumbnail: /assets/images/e-reader.svg
-status: "보유"
+status: "사용 중"
 category: "전자기기"
 ---
 

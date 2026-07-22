@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "책상 위에는 지금 하는 일만"
+lang: ko
+translation_key: clear-desk
+permalink: /ko/posts/clear-desk/
+alternate_url: /en/posts/clear-desk/
 date: 2024-03-15
 ---
 
