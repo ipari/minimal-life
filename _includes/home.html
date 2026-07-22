@@ -49,7 +49,7 @@
     <li><a href="{{ item.url }}" class="review-item"><div class="review-item-heading"><h3>{{ item.title }}</h3><time datetime="{{ item.reviewed_date | date_to_xmlschema }}">{{ item.reviewed_date | date: "%Y.%m.%d" }}</time></div>{% if item.review_summary %}<p>{{ item.review_summary }}</p>{% endif %}</a></li>
     {% endfor %}
   </ul>
-  <a href="/{{ lang }}/reviews/" class="more-link">{{ t.view_all }} &rarr;</a>
+  <a href="/{{ lang }}/no-buys/" class="more-link">{{ t.view_all }} &rarr;</a>
 </section>
 {% endif %}
 

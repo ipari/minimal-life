@@ -1,12 +1,12 @@
 ---
 layout: default
-lang: ko
-title: 들이지 않기로 한 물건들
-permalink: /ko/reviews/
-alternate_url: /en/reviews/
+lang: en
+title: No-Buys
+permalink: /en/no-buys/
+alternate_url: /ko/no-buys/
 ---
-{% assign t = site.data.ui.ko %}
-{% assign items = site.pages | where: "lang", "ko" | where: "kind", "item" | where_exp: "item", "item.reviewed_date" | sort: "reviewed_date" | reverse %}
+{% assign t = site.data.ui.en %}
+{% assign items = site.pages | where: "lang", "en" | where: "kind", "item" | where_exp: "item", "item.reviewed_date" | sort: "reviewed_date" | reverse %}
 <h1 class="page-title" style="margin-bottom: 2rem;">{{ t.all_reviews }}</h1>
 <ul class="review-list">
   {% for item in items %}

@@ -1,10 +1,10 @@
 ---
 layout: default
 lang: en
-title: All posts
+title: All Posts
 permalink: /en/posts/
 alternate_url: /ko/posts/
 ---
-<h1 class="page-title" style="margin-bottom: 2rem;">All posts</h1>
+<h1 class="page-title" style="margin-bottom: 2rem;">All Posts</h1>
 {% assign posts = site.posts | where: "lang", "en" %}
 <ul class="posts-archive">{% for post in posts %}<li class="post-item"><time class="post-item-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time><h3 class="post-item-title"><a href="{{ post.url }}">{{ post.title }}</a></h3></li>{% endfor %}</ul>
