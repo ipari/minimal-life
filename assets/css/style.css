@@ -198,6 +198,7 @@ body {
 }
 
 .recent-item-card {
+  display: block;
   color: var(--color-text);
   text-decoration: none;
 }
@@ -223,12 +224,14 @@ body {
 .recent-item-info h3 {
   font-size: 1rem;
   font-weight: 400;
+  line-height: 1.4;
 }
 
 .recent-item-info p {
-  margin-top: 0.15rem;
+  margin-top: var(--space-1);
   color: var(--color-text-light);
   font-size: 0.72rem;
+  line-height: 1.4;
 }
 
 .review-list {
@@ -313,7 +316,7 @@ body {
   }
 
   .page-card-thumbnail {
-    margin-bottom: 0.4rem;
+    margin-bottom: var(--space-2);
   }
 
   .page-card-title {
@@ -327,6 +330,7 @@ body {
 }
 
 .page-card {
+  display: block;
   text-decoration: none;
   color: var(--color-text);
 }
@@ -356,6 +360,7 @@ body {
 .page-card-title {
   font-size: 0.9rem;
   font-weight: 400;
+  line-height: 1.4;
   text-align: center;
   transition: color 0.2s ease;
 }
@@ -367,12 +372,12 @@ body {
   border-radius: 999px;
   color: var(--color-text-light);
   font-size: 0.72rem;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 .page-card .category-badge {
   display: table;
-  margin: 2px auto 0;
+  margin: var(--space-2) auto 0;
 }
 
 .page-card-date {
