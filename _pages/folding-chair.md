@@ -7,7 +7,7 @@ permalink: /ko/items/folding-chair/
 alternate_url: /en/items/folding-chair/
 thumbnail: /assets/images/products/folding-chair.png
 model: "Helinox Chair One"
-status: "사용 중"
+status: "내보냄"
 category: "가구·인테리어"
 item_order: 20
 acquired_date: 2023-06-05

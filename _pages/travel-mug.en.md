@@ -8,7 +8,7 @@ permalink: /en/items/travel-mug/
 alternate_url: /ko/items/travel-mug/
 thumbnail: /assets/images/products/travel-mug.png
 model: "Zojirushi SM-SF48"
-status: "In use"
+status: "Let go"
 category: "Kitchen"
 item_order: 40
 acquired_date: 2024-11-16

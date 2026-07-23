@@ -7,7 +7,7 @@ permalink: /ko/items/wall-clock/
 alternate_url: /en/items/wall-clock/
 thumbnail: /assets/images/products/wall-clock.png
 model: "Lemnos Riki Clock"
-status: "사용 중"
+status: "사용 완료"
 category: "가구·인테리어"
 item_order: 30
 acquired_date: 2022-10-11

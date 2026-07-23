@@ -8,7 +8,7 @@ permalink: /en/items/headphones/
 alternate_url: /ko/items/headphones/
 thumbnail: /assets/images/products/headphones.png
 model: "Audio-Technica ATH-M50x"
-status: "In use"
+status: "Retired"
 category: "Electronics"
 item_order: 40
 acquired_date: 2023-02-08

@@ -8,7 +8,7 @@ permalink: /en/items/second-keyboard/
 alternate_url: /ko/items/second-keyboard/
 thumbnail: /assets/images/products/keyboard.png
 model: "Logitech Keys-To-Go 2"
-status: "In use"
+status: "Let go"
 category: "Electronics"
 item_order: 50
 acquired_date: 2024-09-03

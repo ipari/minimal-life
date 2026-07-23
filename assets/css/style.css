@@ -153,6 +153,37 @@ body {
   color: var(--color-text);
 }
 
+.section-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+  margin-top: 1rem;
+}
+
+.section-actions .more-link {
+  margin-top: 0;
+}
+
+.inventory-toggle {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--color-text-light);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.9rem;
+}
+
+.inventory-toggle:hover {
+  color: var(--color-text);
+}
+
+.inventory-toggle-wrap {
+  margin-top: 60px;
+  text-align: center;
+}
+
 /* Recent Items */
 .recent-item-grid {
   display: grid;
@@ -328,6 +359,13 @@ body {
 .page-card .category-badge {
   display: table;
   margin: 2px auto 0;
+}
+
+.page-card-date {
+  display: table;
+  margin: 0.3rem auto 0;
+  color: var(--color-text-light);
+  font-size: 0.68rem;
 }
 
 /* Post Page */

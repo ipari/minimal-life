@@ -7,7 +7,7 @@ permalink: /ko/items/desk-lamp/
 alternate_url: /en/items/desk-lamp/
 thumbnail: /assets/images/products/desk-lamp.png
 model: "BenQ WiT e-Reading Desk Lamp"
-status: "사용 중"
+status: "내보냄"
 category: "가구·인테리어"
 item_order: 10
 acquired_date: 2024-01-28

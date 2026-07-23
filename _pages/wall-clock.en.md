@@ -8,7 +8,7 @@ permalink: /en/items/wall-clock/
 alternate_url: /ko/items/wall-clock/
 thumbnail: /assets/images/products/wall-clock.png
 model: "Lemnos Riki Clock"
-status: "In use"
+status: "Retired"
 category: "Furniture & interior"
 item_order: 30
 acquired_date: 2022-10-11

@@ -8,7 +8,7 @@ permalink: /en/items/desk-lamp/
 alternate_url: /ko/items/desk-lamp/
 thumbnail: /assets/images/products/desk-lamp.png
 model: "BenQ WiT e-Reading Desk Lamp"
-status: "In use"
+status: "Let go"
 category: "Furniture & interior"
 item_order: 10
 acquired_date: 2024-01-28

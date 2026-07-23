@@ -7,7 +7,7 @@ permalink: /ko/items/compact-camera/
 alternate_url: /en/items/compact-camera/
 thumbnail: /assets/images/products/compact-camera.png
 model: "Ricoh GR III"
-status: "사용 중"
+status: "내보냄"
 category: "전자기기"
 item_order: 30
 acquired_date: 2024-04-12

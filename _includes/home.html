@@ -4,10 +4,17 @@
 {% assign localized_items = site.pages | where: "lang", lang | where: "kind", "item" %}
 {% if lang == "ko" %}
   {% assign active_status = "사용 중" %}
+  {% assign retired_status = "사용 완료" %}
+  {% assign let_go_status = "내보냄" %}
 {% else %}
   {% assign active_status = "In use" %}
+  {% assign retired_status = "Retired" %}
+  {% assign let_go_status = "Let go" %}
 {% endif %}
 {% assign owned_items = localized_items | where: "status", active_status %}
+{% assign retired_items = localized_items | where: "status", retired_status %}
+{% assign let_go_items = localized_items | where: "status", let_go_status %}
+{% assign past_items = retired_items | concat: let_go_items %}
 
 <section class="home-section home-section-compact">
   <h2 class="section-title">{{ t.recent_posts }}</h2>
@@ -49,7 +56,9 @@
     <li><a href="{{ item.url }}" class="review-item"><div class="review-item-heading"><h3>{{ item.title }}</h3><time datetime="{{ item.reviewed_date | date_to_xmlschema }}">{{ item.reviewed_date | date: "%Y.%m.%d" }}</time></div>{% if item.review_summary %}<p>{{ item.review_summary }}</p>{% endif %}</a></li>
     {% endfor %}
   </ul>
-  <a href="/{{ lang }}/no-buys/" class="more-link">{{ t.view_all }} &rarr;</a>
+  <div class="section-actions">
+    <a href="/{{ lang }}/no-buys/" class="more-link">{{ t.view_all }} &rarr;</a>
+  </div>
 </section>
 {% endif %}
 
@@ -66,4 +75,24 @@
     {% endfor %}
   </div>
   {% else %}<p class="empty-state">{{ t.no_items }}</p>{% endif %}
+  {% if past_items.size > 0 %}
+  <div class="inventory-toggle-wrap">
+    <button type="button" class="inventory-toggle" data-inventory-toggle aria-expanded="false" aria-controls="past-items" data-label="{{ t.view_all_items }}">{{ t.view_all_items }} &darr;</button>
+  </div>
+  {% endif %}
 </section>
+
+{% if past_items.size > 0 %}
+<section id="past-items" class="home-section past-items-section" hidden>
+  <h2 class="section-title">{{ t.past_items }}</h2>
+  <div class="page-grid">
+    {% for category in site.data.item_categories %}
+      {% assign category_name = category[lang] %}
+      {% assign past_category_items = past_items | where: "category", category_name | sort: "acquired_date" | reverse %}
+      {% for item in past_category_items %}
+      <a href="{{ item.url }}" class="page-card"><div class="page-card-thumbnail">{% if item.thumbnail %}<img src="{{ item.thumbnail }}" alt="{{ item.title }}">{% endif %}</div><h3 class="page-card-title">{{ item.title }}</h3>{% if item.category %}<span class="category-badge">{{ item.category }}</span>{% endif %}{% if item.acquired_date %}<time class="page-card-date" datetime="{{ item.acquired_date | date_to_xmlschema }}">{{ item.acquired_date | date: "%Y.%m.%d" }}</time>{% endif %}</a>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

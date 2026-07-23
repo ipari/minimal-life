@@ -8,7 +8,7 @@ permalink: /en/items/umbrella/
 alternate_url: /ko/items/umbrella/
 thumbnail: /assets/images/products/umbrella.png
 model: "Knirps US.050"
-status: "In use"
+status: "Retired"
 category: "Household"
 item_order: 10
 acquired_date: 2025-07-02

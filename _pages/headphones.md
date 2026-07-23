@@ -7,7 +7,7 @@ permalink: /ko/items/headphones/
 alternate_url: /en/items/headphones/
 thumbnail: /assets/images/products/headphones.png
 model: "Audio-Technica ATH-M50x"
-status: "사용 중"
+status: "사용 완료"
 category: "전자기기"
 item_order: 40
 acquired_date: 2023-02-08

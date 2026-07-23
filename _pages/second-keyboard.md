@@ -7,7 +7,7 @@ permalink: /ko/items/second-keyboard/
 alternate_url: /en/items/second-keyboard/
 thumbnail: /assets/images/products/keyboard.png
 model: "Logitech Keys-To-Go 2"
-status: "사용 중"
+status: "내보냄"
 category: "전자기기"
 item_order: 50
 acquired_date: 2024-09-03

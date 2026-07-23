@@ -8,7 +8,7 @@ permalink: /en/items/bluetooth-speaker/
 alternate_url: /ko/items/bluetooth-speaker/
 thumbnail: /assets/images/products/bluetooth-speaker.png
 model: "JBL Flip 6"
-status: "In use"
+status: "Retired"
 category: "Electronics"
 item_order: 20
 acquired_date: 2023-08-20

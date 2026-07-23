@@ -14,6 +14,8 @@ en:
   acquired_date: Acquired
   home: Home
   back: Back
+  view_all_items: Things from before
+  past_items: Things from before
 ko:
   site_title: 미니멀 라이프
   description: 덜어내며 살아가는 일상의 기록
@@ -30,3 +32,5 @@ ko:
   acquired_date: 들임
   home: 홈으로
   back: 뒤로 가기
+  view_all_items: 지나온 물건들
+  past_items: 지나온 물건들

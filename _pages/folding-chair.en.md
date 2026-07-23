@@ -8,7 +8,7 @@ permalink: /en/items/folding-chair/
 alternate_url: /ko/items/folding-chair/
 thumbnail: /assets/images/products/folding-chair.png
 model: "Helinox Chair One"
-status: "In use"
+status: "Let go"
 category: "Furniture & interior"
 item_order: 20
 acquired_date: 2023-06-05

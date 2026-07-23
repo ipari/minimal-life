@@ -8,7 +8,7 @@ permalink: /en/items/compact-camera/
 alternate_url: /ko/items/compact-camera/
 thumbnail: /assets/images/products/compact-camera.png
 model: "Ricoh GR III"
-status: "In use"
+status: "Let go"
 category: "Electronics"
 item_order: 30
 acquired_date: 2024-04-12
