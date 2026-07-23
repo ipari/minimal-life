@@ -14,7 +14,13 @@
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-serif: Georgia, "Times New Roman", serif;
   --max-width: 720px;
-  --spacing: 2rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
 }
 
 html {
@@ -33,13 +39,13 @@ body {
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: var(--spacing);
+  padding: var(--space-6);
 }
 
 /* Header */
 .site-header {
-  padding: var(--spacing) 0;
-  margin-bottom: var(--spacing);
+  padding: var(--space-5) 0;
+  margin-bottom: var(--space-6);
   border-bottom: 1px solid var(--color-border);
   text-align: center;
 }
@@ -63,8 +69,8 @@ body {
 
 /* Footer */
 .site-footer {
-  margin-top: var(--spacing);
-  padding: var(--spacing) 0;
+  margin-top: var(--space-6);
+  padding: var(--space-5) 0;
   border-top: 1px solid var(--color-border);
   text-align: center;
   font-size: 0.85rem;
@@ -73,7 +79,7 @@ body {
 
 /* Home Page */
 .home-section {
-  margin-bottom: calc(var(--spacing) * 2);
+  margin-bottom: var(--space-7);
 }
 
 .section-title {
@@ -82,13 +88,13 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: var(--color-text-light);
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
+  margin-bottom: var(--space-4);
+  padding-bottom: var(--space-2);
   border-bottom: 1px solid var(--color-border);
 }
 
 .home-section-compact .section-title {
-  margin-bottom: 0.25rem;
+  margin-bottom: var(--space-1);
 }
 
 /* Recent Posts */
@@ -97,7 +103,7 @@ body {
 }
 
 .post-item {
-  padding: 1rem 0;
+  padding: var(--space-4) 0;
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -108,7 +114,7 @@ body {
 .post-item-title {
   font-size: 1.1rem;
   font-weight: 400;
-  margin-bottom: 0.25rem;
+  margin-bottom: var(--space-1);
 }
 
 .post-item-title a {
@@ -129,7 +135,7 @@ body {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: 1rem;
+  gap: var(--space-4);
   padding: 0.6rem 0;
 }
 
@@ -143,7 +149,7 @@ body {
 
 .more-link {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: var(--space-4);
   font-size: 0.9rem;
   color: var(--color-text-light);
   text-decoration: none;
@@ -157,8 +163,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.75rem 1.25rem;
-  margin-top: 1rem;
+  gap: var(--space-3) 1.25rem;
+  margin-top: var(--space-4);
 }
 
 .section-actions .more-link {
@@ -180,7 +186,7 @@ body {
 }
 
 .inventory-toggle-wrap {
-  margin-top: 60px;
+  margin-top: var(--space-7);
   text-align: center;
 }
 
@@ -188,7 +194,7 @@ body {
 .recent-item-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: var(--space-5);
 }
 
 .recent-item-card {
@@ -198,7 +204,7 @@ body {
 
 .recent-item-thumbnail {
   aspect-ratio: 1;
-  margin-bottom: 0.75rem;
+  margin-bottom: var(--space-3);
   overflow: hidden;
   background: #fff;
 }
@@ -248,7 +254,7 @@ body {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: 1rem;
+  gap: var(--space-4);
 }
 
 .review-item-heading h3 {
@@ -269,8 +275,12 @@ body {
 }
 
 @media (max-width: 600px) {
+  .container {
+    padding: var(--space-5);
+  }
+
   .recent-item-grid {
-    gap: 0.5rem;
+    gap: var(--space-3);
   }
 
   .recent-item-info h3 {
@@ -287,15 +297,15 @@ body {
 .page-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 1.5rem;
-  row-gap: 2.25rem;
+  column-gap: var(--space-5);
+  row-gap: var(--space-6);
 }
 
 @media (max-width: 600px) {
   .page-grid {
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 0.5rem;
-    row-gap: 1.25rem;
+    column-gap: var(--space-3);
+    row-gap: var(--space-5);
   }
 
   .page-card-thumbnail {
@@ -324,7 +334,7 @@ body {
 .page-card-thumbnail {
   aspect-ratio: 1;
   background-color: #fff;
-  margin-bottom: 0.75rem;
+  margin-bottom: var(--space-3);
   overflow: hidden;
 }
 
@@ -370,7 +380,7 @@ body {
 
 /* Post Page */
 .post-header {
-  margin-bottom: var(--spacing);
+  margin-bottom: var(--space-6);
   text-align: center;
 }
 
@@ -425,7 +435,7 @@ body {
 
 /* Page */
 .page-header {
-  margin-bottom: var(--spacing);
+  margin-bottom: var(--space-6);
   text-align: center;
 }
 
@@ -466,7 +476,7 @@ body {
 
 .page-thumbnail {
   max-width: 512px;
-  margin: 0 auto var(--spacing);
+  margin: 0 auto var(--space-6);
   overflow: hidden;
   background: #fff;
 }
@@ -481,12 +491,12 @@ body {
 }
 
 .page-content p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 
 .page-content ul, .page-content ol {
-  margin-bottom: 1.5rem;
-  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+  padding-left: var(--space-5);
 }
 
 .page-content li {
@@ -494,8 +504,8 @@ body {
 }
 
 .back-nav {
-  margin-top: var(--spacing);
-  padding-top: var(--spacing);
+  margin-top: var(--space-6);
+  padding-top: var(--space-6);
   border-top: 1px solid var(--color-border);
 }
 
