@@ -12,4 +12,10 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
+
+  <aside class="author-card" aria-labelledby="author-card-title">
+    <p class="author-card-label" id="author-card-title">{{ site.data.ui[page.lang].author_title }}</p>
+    <p>{{ site.data.ui[page.lang].author_summary }}</p>
+    <a href="/{{ page.lang }}/about/">{{ site.data.ui[page.lang].author_more }} &rarr;</a>
+  </aside>
 </article>

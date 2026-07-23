@@ -18,6 +18,10 @@ en:
   past_items: Things from before
   about: About this blog
   about_summary: Who I am and why I keep these notes
+  about_nav: About
+  author_title: About the author
+  author_summary: I write about owning less, using things longer, and making room for what matters.
+  author_more: Read more
 ko:
   site_title: 미니멀 라이프
   description: 덜어내며 살아가는 일상의 기록
@@ -38,3 +42,7 @@ ko:
   past_items: 지나온 물건들
   about: 이 블로그에 대하여
   about_summary: 내가 누구인지, 무엇을 위해 기록하는지 소개합니다
+  about_nav: 소개
+  author_title: 글쓴이 소개
+  author_summary: 적게 소유하고 오래 사용하며, 중요한 것을 위한 자리를 만드는 과정을 기록합니다.
+  author_more: 더 알아보기
