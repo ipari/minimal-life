@@ -6,7 +6,8 @@ kind: item
 translation_key: standing-desk
 permalink: /en/items/standing-desk/
 alternate_url: /ko/items/standing-desk/
-thumbnail: /assets/images/products/standing-desk.png
+thumbnail: /assets/images/thumbnails/standing-desk.webp
+image: /assets/images/products/standing-desk.png
 model: "FlexiSpot E7"
 status: "Not purchased"
 category: "Furniture & interior"

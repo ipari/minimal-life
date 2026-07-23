@@ -6,7 +6,8 @@ kind: item
 translation_key: wall-clock
 permalink: /en/items/wall-clock/
 alternate_url: /ko/items/wall-clock/
-thumbnail: /assets/images/products/wall-clock.png
+thumbnail: /assets/images/thumbnails/wall-clock.webp
+image: /assets/images/products/wall-clock.png
 model: "Lemnos Riki Clock"
 status: "Retired"
 category: "Furniture & interior"

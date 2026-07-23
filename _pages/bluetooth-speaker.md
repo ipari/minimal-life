@@ -5,7 +5,8 @@ kind: item
 translation_key: bluetooth-speaker
 permalink: /ko/items/bluetooth-speaker/
 alternate_url: /en/items/bluetooth-speaker/
-thumbnail: /assets/images/products/bluetooth-speaker.png
+thumbnail: /assets/images/thumbnails/bluetooth-speaker.webp
+image: /assets/images/products/bluetooth-speaker.png
 model: "JBL Flip 6"
 status: "사용 완료"
 category: "전자기기"

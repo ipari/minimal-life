@@ -6,7 +6,8 @@ kind: item
 translation_key: e-reader
 permalink: /en/items/e-reader/
 alternate_url: /ko/items/e-reader/
-thumbnail: /assets/images/products/e-reader.png
+thumbnail: /assets/images/thumbnails/e-reader.webp
+image: /assets/images/products/e-reader.png
 model: "Kobo Clara 2E"
 status: "In use"
 category: "Electronics"

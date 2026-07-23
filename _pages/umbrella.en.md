@@ -6,7 +6,8 @@ kind: item
 translation_key: umbrella
 permalink: /en/items/umbrella/
 alternate_url: /ko/items/umbrella/
-thumbnail: /assets/images/products/umbrella.png
+thumbnail: /assets/images/thumbnails/umbrella.webp
+image: /assets/images/products/umbrella.png
 model: "Knirps US.050"
 status: "Retired"
 category: "Household"

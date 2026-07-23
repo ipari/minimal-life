@@ -21,9 +21,10 @@ layout: default
     {% endif %}
   </header>
 
-  {% if page.thumbnail %}
+  {% assign detail_image = page.image | default: page.thumbnail %}
+  {% if detail_image %}
   <div class="page-thumbnail">
-    <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}">
+    <img src="{{ detail_image | relative_url }}" alt="{{ page.title }}">
   </div>
   {% endif %}
 

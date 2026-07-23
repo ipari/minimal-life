@@ -6,7 +6,8 @@ kind: item
 translation_key: espresso-machine
 permalink: /en/items/espresso-machine/
 alternate_url: /ko/items/espresso-machine/
-thumbnail: /assets/images/products/espresso-machine.png
+thumbnail: /assets/images/thumbnails/espresso-machine.webp
+image: /assets/images/products/espresso-machine.png
 model: "Breville Bambino Plus"
 status: "Not purchased"
 category: "Kitchen"

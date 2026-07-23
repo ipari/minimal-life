@@ -6,7 +6,8 @@ kind: item
 translation_key: compact-camera
 permalink: /en/items/compact-camera/
 alternate_url: /ko/items/compact-camera/
-thumbnail: /assets/images/products/compact-camera.png
+thumbnail: /assets/images/thumbnails/compact-camera.webp
+image: /assets/images/products/compact-camera.png
 model: "Ricoh GR III"
 status: "Let go"
 category: "Electronics"

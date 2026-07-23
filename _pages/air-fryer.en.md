@@ -6,7 +6,8 @@ kind: item
 translation_key: air-fryer
 permalink: /en/items/air-fryer/
 alternate_url: /ko/items/air-fryer/
-thumbnail: /assets/images/products/air-fryer.png
+thumbnail: /assets/images/thumbnails/air-fryer.webp
+image: /assets/images/products/air-fryer.png
 model: "Philips Airfryer HD9252/90"
 status: "Not purchased"
 category: "Kitchen"

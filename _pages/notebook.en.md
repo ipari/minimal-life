@@ -6,7 +6,8 @@ kind: item
 translation_key: notebook
 permalink: /en/items/notebook/
 alternate_url: /ko/items/notebook/
-thumbnail: /assets/images/products/notebook.png
+thumbnail: /assets/images/thumbnails/notebook.webp
+image: /assets/images/products/notebook.png
 model: "Leuchtturm1917 A5 Hardcover"
 status: "In use"
 category: "Stationery & office"

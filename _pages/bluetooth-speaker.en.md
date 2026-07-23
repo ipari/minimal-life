@@ -6,7 +6,8 @@ kind: item
 translation_key: bluetooth-speaker
 permalink: /en/items/bluetooth-speaker/
 alternate_url: /ko/items/bluetooth-speaker/
-thumbnail: /assets/images/products/bluetooth-speaker.png
+thumbnail: /assets/images/thumbnails/bluetooth-speaker.webp
+image: /assets/images/products/bluetooth-speaker.png
 model: "JBL Flip 6"
 status: "Retired"
 category: "Electronics"

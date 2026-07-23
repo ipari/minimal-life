@@ -5,7 +5,8 @@ kind: item
 translation_key: backpack
 permalink: /ko/items/backpack/
 alternate_url: /en/items/backpack/
-thumbnail: /assets/images/products/backpack.png
+thumbnail: /assets/images/thumbnails/backpack.webp
+image: /assets/images/products/backpack.png
 model: "SimpleBack Daypack 20L"
 status: "사용 중"
 category: "가방·액세서리"

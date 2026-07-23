@@ -5,7 +5,8 @@ kind: item
 translation_key: headphones
 permalink: /ko/items/headphones/
 alternate_url: /en/items/headphones/
-thumbnail: /assets/images/products/headphones.png
+thumbnail: /assets/images/thumbnails/headphones.webp
+image: /assets/images/products/headphones.png
 model: "Audio-Technica ATH-M50x"
 status: "사용 완료"
 category: "전자기기"

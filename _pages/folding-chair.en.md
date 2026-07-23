@@ -6,7 +6,8 @@ kind: item
 translation_key: folding-chair
 permalink: /en/items/folding-chair/
 alternate_url: /ko/items/folding-chair/
-thumbnail: /assets/images/products/folding-chair.png
+thumbnail: /assets/images/thumbnails/folding-chair.webp
+image: /assets/images/products/folding-chair.png
 model: "Helinox Chair One"
 status: "Let go"
 category: "Furniture & interior"

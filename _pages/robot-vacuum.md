@@ -5,7 +5,8 @@ kind: item
 translation_key: robot-vacuum
 permalink: /ko/items/robot-vacuum/
 alternate_url: /en/items/robot-vacuum/
-thumbnail: /assets/images/products/robot-vacuum.png
+thumbnail: /assets/images/thumbnails/robot-vacuum.webp
+image: /assets/images/products/robot-vacuum.png
 model: "Roborock Q8 Max"
 status: "구매하지 않음"
 category: "전자기기"
