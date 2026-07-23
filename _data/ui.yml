@@ -16,6 +16,8 @@ en:
   back: Back
   view_all_items: Things from before
   past_items: Things from before
+  about: About this blog
+  about_summary: Who I am and why I keep these notes
 ko:
   site_title: 미니멀 라이프
   description: 덜어내며 살아가는 일상의 기록
@@ -34,3 +36,5 @@ ko:
   back: 뒤로 가기
   view_all_items: 지나온 물건들
   past_items: 지나온 물건들
+  about: 이 블로그에 대하여
+  about_summary: 내가 누구인지, 무엇을 위해 기록하는지 소개합니다
