@@ -69,6 +69,15 @@ body {
   color: var(--color-brand);
 }
 
+.site-tagline {
+  margin-top: var(--space-1);
+  color: var(--color-text-light);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  line-height: 1.5;
+}
+
 .site-mark {
   display: block;
   flex: 0 0 auto;
