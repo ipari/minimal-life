@@ -107,7 +107,6 @@ body {
 .site-footer {
   margin-top: var(--space-6);
   padding: var(--space-5) 0;
-  border-top: 1px solid var(--color-border);
   text-align: center;
   font-size: 0.85rem;
   color: var(--color-text-light);
