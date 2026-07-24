@@ -33,6 +33,15 @@ The 532 ml size balanced weight and capacity, while single-wall stainless steel 
 
 The broad opening is easy to clean even without a brush, and water keeps a neutral taste. Cold drinks create condensation outside, an expected tradeoff for prioritizing low weight over insulation.
 
+## Care Checklist
+
+- Rinse it with water after use.
+- Let it dry completely with the cap removed.
+- Clean the silicone ring once a week.
+
 ## Purchase Link
 
-[View retailer](https://www.coupang.com/)
+- Online retailer
+  - [View on Coupang](https://www.coupang.com/)
+  - [View on Amazon](https://www.amazon.com/)
+  - [View on AliExpress](https://www.aliexpress.com/)

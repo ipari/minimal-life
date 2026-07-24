@@ -48,6 +48,15 @@ purchase_url: https://www.coupang.com/
 
 지금까지 편의점에서 생수를 사는 횟수는 눈에 띄게 줄었다. 좋은 물병 하나보다 더 중요했던 것은 현관 가까이에 두고 외출 전 물을 채우는 습관이었다.
 
+## 관리 체크리스트
+
+- 사용한 날에는 물로 헹군다.
+- 뚜껑을 분리한 상태로 완전히 말린다.
+- 일주일에 한 번 실리콘 링을 세척한다.
+
 ## 구매 링크
 
-[구매처 보기](https://www.coupang.com/)
+- 온라인 판매처
+  - [쿠팡에서 보기](https://www.coupang.com/)
+  - [아마존에서 보기](https://www.amazon.com/)
+  - [알리익스프레스에서 보기](https://www.aliexpress.com/)

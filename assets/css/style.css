@@ -13,6 +13,8 @@
   --color-accent: #555;
   --color-brand: #4f7058;
   --color-brand-dark: #36533f;
+  --color-brand-soft: #f1f5f2;
+  --color-brand-border: #d9e3db;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-serif: Georgia, "Times New Roman", serif;
   --max-width: 720px;
@@ -488,17 +490,41 @@ body {
   text-decoration-color: currentColor;
 }
 
+.external-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32em;
+  max-width: 100%;
+  padding: 0.06em 0.38em 0.1em;
+  border: 1px solid var(--color-brand-border);
+  border-radius: 0.35em;
+  background: var(--color-brand-soft);
+  color: var(--color-brand-dark);
+  font-size: 0.875em;
+  line-height: 1.35;
+  text-decoration: none;
+  vertical-align: 0.02em;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.external-link:hover {
+  border-color: #bdccbf;
+  background: #e7eee8;
+  color: var(--color-brand-dark);
+  text-decoration: none;
+}
+
 .external-link-favicon,
 .external-link-fallback {
   display: inline-block;
   flex: 0 0 auto;
-  margin-right: 0.32em;
-  vertical-align: -0.08em;
+  margin-right: 0;
+  vertical-align: 0;
 }
 
 .external-link-favicon {
-  width: 1em;
-  height: 1em;
+  width: 0.9em;
+  height: 0.9em;
   border-radius: 2px;
   object-fit: contain;
 }
@@ -607,7 +633,28 @@ body {
 }
 
 .page-content li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.125rem;
+  line-height: 1.6;
+}
+
+.page-content li:last-child {
+  margin-bottom: 0;
+}
+
+.page-content li > ul,
+.page-content li > ol {
+  margin-top: var(--space-1);
+  margin-bottom: 0;
+}
+
+.page-content li > ul > li,
+.page-content li > ol > li {
+  margin-bottom: 0.125rem;
+}
+
+.page-content li > ul > li:last-child,
+.page-content li > ol > li:last-child {
+  margin-bottom: 0;
 }
 
 .page-content img:not(.external-link-favicon) {
