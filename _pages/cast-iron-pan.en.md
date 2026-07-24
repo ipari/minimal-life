@@ -13,6 +13,7 @@ status: "In use"
 category: "Kitchen"
 item_order: 10
 acquired_date: 2026-06-02
+purchase_url: https://www.aliexpress.com/
 ---
 
 ## Why I Needed It
@@ -34,4 +35,4 @@ With proper preheating, eggs and meat release well and develop a strong sear. It
 
 ## Purchase Link
 
-[View retailer](https://example.com/shop/cast-iron-pan)
+[View retailer](https://www.aliexpress.com/)

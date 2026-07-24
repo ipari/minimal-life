@@ -13,6 +13,7 @@ status: "In use"
 category: "Kitchen"
 item_order: 30
 acquired_date: 2026-07-18
+purchase_url: https://www.coupang.com/
 ---
 
 ## Why I Needed It
@@ -34,4 +35,4 @@ The broad opening is easy to clean even without a brush, and water keeps a neutr
 
 ## Purchase Link
 
-[View retailer](https://example.com/shop/water-bottle)
+[View retailer](https://www.coupang.com/)

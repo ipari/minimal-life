@@ -12,6 +12,7 @@ status: "사용 중"
 category: "주방용품"
 item_order: 10
 acquired_date: 2026-06-02
+purchase_url: https://www.aliexpress.com/
 ---
 
 ## 이 물건이 필요했던 이유
@@ -49,4 +50,4 @@ acquired_date: 2026-06-02
 
 ## 구매 링크
 
-[구매처 보기](https://example.com/shop/cast-iron-pan)
+[구매처 보기](https://www.aliexpress.com/)

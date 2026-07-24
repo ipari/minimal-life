@@ -11,6 +11,8 @@
   --color-text-light: #666;
   --color-border: #e0e0e0;
   --color-accent: #555;
+  --color-brand: #4f7058;
+  --color-brand-dark: #36533f;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-serif: Georgia, "Times New Roman", serif;
   --max-width: 720px;
@@ -50,15 +52,24 @@ body {
 }
 
 .site-title {
-  font-size: 1.5rem;
-  font-weight: 300;
-  letter-spacing: 0.1em;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-brand-dark);
+  font-family: var(--font-serif);
+  font-size: 1.65rem;
+  font-weight: 400;
+  letter-spacing: 0.035em;
   text-decoration: none;
-  color: var(--color-text);
 }
 
 .site-title:hover {
-  color: var(--color-accent);
+  color: var(--color-brand);
+}
+
+.site-mark {
+  display: block;
+  flex: 0 0 auto;
 }
 
 .site-nav {
@@ -137,7 +148,7 @@ body {
 }
 
 .post-item-title a:hover {
-  color: var(--color-accent);
+  color: var(--color-brand-dark);
 }
 
 .post-item-date {
@@ -166,12 +177,12 @@ body {
   display: inline-block;
   margin-top: var(--space-4);
   font-size: 0.9rem;
-  color: var(--color-text-light);
+  color: var(--color-brand);
   text-decoration: none;
 }
 
 .more-link:hover {
-  color: var(--color-text);
+  color: var(--color-brand-dark);
 }
 
 .section-actions {
@@ -197,7 +208,7 @@ body {
 }
 
 .inventory-toggle:hover {
-  color: var(--color-text);
+  color: var(--color-brand-dark);
 }
 
 .inventory-toggle-wrap {
@@ -351,7 +362,7 @@ body {
 }
 
 .page-card:hover .page-card-title {
-  color: var(--color-accent);
+  color: var(--color-brand-dark);
 }
 
 .page-card-thumbnail {
@@ -420,7 +431,7 @@ body {
 }
 
 .post-content {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   line-height: 1.8;
 }
 
@@ -464,6 +475,41 @@ body {
   margin: 2rem 0;
 }
 
+.post-content a,
+.page-content a {
+  color: var(--color-brand);
+  text-decoration-color: rgba(79, 112, 88, 0.45);
+  text-underline-offset: 0.18em;
+}
+
+.post-content a:hover,
+.page-content a:hover {
+  color: var(--color-brand-dark);
+  text-decoration-color: currentColor;
+}
+
+.external-link-favicon,
+.external-link-fallback {
+  display: inline-block;
+  flex: 0 0 auto;
+  margin-right: 0.32em;
+  vertical-align: -0.08em;
+}
+
+.external-link-favicon {
+  width: 1em;
+  height: 1em;
+  border-radius: 2px;
+  object-fit: contain;
+}
+
+.external-link-fallback {
+  color: var(--color-brand-dark);
+  font-size: 0.78em;
+  line-height: 1;
+  text-decoration: none;
+}
+
 .author-card {
   margin-top: var(--space-7);
   padding: var(--space-5);
@@ -486,12 +532,12 @@ body {
 }
 
 .author-card a {
-  color: var(--color-text);
+  color: var(--color-brand);
   text-decoration: none;
 }
 
 .author-card a:hover {
-  color: var(--color-accent);
+  color: var(--color-brand-dark);
 }
 
 /* Page */
@@ -531,7 +577,7 @@ body {
 }
 
 .item-status {
-  color: var(--color-text);
+  color: var(--color-brand-dark);
   font-weight: 500;
 }
 
@@ -564,7 +610,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.page-content img {
+.page-content img:not(.external-link-favicon) {
   display: block;
   width: 100%;
   height: auto;
@@ -579,12 +625,12 @@ body {
 
 .back-nav a {
   font-size: 0.9rem;
-  color: var(--color-text-light);
+  color: var(--color-brand);
   text-decoration: none;
 }
 
 .back-nav a:hover {
-  color: var(--color-text);
+  color: var(--color-brand-dark);
 }
 
 /* Posts Archive */

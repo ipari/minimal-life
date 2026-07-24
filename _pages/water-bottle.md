@@ -12,6 +12,7 @@ status: "사용 중"
 category: "주방용품"
 item_order: 30
 acquired_date: 2026-07-18
+purchase_url: https://www.coupang.com/
 ---
 
 ## 이 물건이 필요했던 이유
@@ -49,4 +50,4 @@ acquired_date: 2026-07-18
 
 ## 구매 링크
 
-[구매처 보기](https://example.com/shop/water-bottle)
+[구매처 보기](https://www.coupang.com/)

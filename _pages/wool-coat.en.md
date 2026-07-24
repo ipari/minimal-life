@@ -13,6 +13,7 @@ status: "In use"
 category: "Clothing & footwear"
 item_order: 10
 acquired_date: 2026-06-24
+purchase_url: https://www.amazon.com/
 ---
 
 ## Why I Needed It
@@ -34,4 +35,4 @@ It works with both tailoring and jeans, eliminating the need for separate winter
 
 ## Purchase Link
 
-[View retailer](https://example.com/shop/wool-coat)
+[View retailer](https://www.amazon.com/)

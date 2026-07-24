@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-labelledby="title">
+  <title id="title">Leaflette leaf mark</title>
+  <path d="M15.8 27.5c-.4-7.8.8-14.2 5.1-20.2" fill="none" stroke="#4f7058" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M20.2 8.3C22.8 4.7 26.3 3.8 29 4c-.1 3.2-1.4 6.4-4.3 8-2 1.1-4.1.9-5.7.4.1-1.4.4-2.8 1.2-4.1Z" fill="#4f7058"/>
+  <path d="M15.4 17.1c-2.9-3.1-6.7-3.8-10-3.1.5 3.5 2.2 6.6 5.4 8 2.1.9 4.2.4 5.7-.3 0-1.5-.3-3.1-1.1-4.6Z" fill="#78947e"/>
+</svg>

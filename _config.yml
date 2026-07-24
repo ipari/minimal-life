@@ -1,8 +1,8 @@
 # Site settings
-title: "Minimal Life"
+title: "Leaflette"
 description: "Notes on living with less"
 baseurl: ""
-url: "https://ipari.dev"
+url: "https://leaflette.com"
 
 # 물건에 사용할 카테고리 목록입니다. 새 물건의 front matter에
 # category: "전자기기"와 같이 아래 값 중 하나를 기록합니다.

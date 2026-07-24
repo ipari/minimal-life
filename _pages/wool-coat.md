@@ -12,6 +12,7 @@ status: "사용 중"
 category: "의류·신발"
 item_order: 10
 acquired_date: 2026-06-24
+purchase_url: https://www.amazon.com/
 ---
 
 ## 이 물건이 필요했던 이유
@@ -49,4 +50,4 @@ acquired_date: 2026-06-24
 
 ## 구매 링크
 
-[구매처 보기](https://example.com/shop/wool-coat)
+[구매처 보기](https://www.amazon.com/)
