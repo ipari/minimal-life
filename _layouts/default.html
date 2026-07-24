@@ -19,7 +19,7 @@
         <img src="{{ '/assets/images/leaflette-mark.svg' | relative_url }}" alt="" class="site-mark" width="28" height="28">
         <span>{{ t.site_title }}</span>
       </a>
-      <p class="site-tagline">{{ t.description }}</p>
+      <a href="/{{ lang }}/about/" class="site-tagline">{{ t.description }}</a>
     </header>
 
     <main class="content">
@@ -33,7 +33,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>&copy; {{ site.time | date: '%Y' }} {{ t.site_title }}</p>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ t.site_title }} <span aria-hidden="true">&middot;</span> <a href="/{{ lang }}/about/">{{ t.about_nav }}</a></p>
     </footer>
   </div>
 </body>
