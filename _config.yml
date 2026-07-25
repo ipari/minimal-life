@@ -1,8 +1,33 @@
 # Site settings
-title: "미니멀 라이프"
-description: "덜어내며 살아가는 일상의 기록"
+title: "Leaflette"
+description: "Notes on thoughtful ownership"
 baseurl: ""
-url: ""
+url: "https://leaflette.com"
+
+# 물건에 사용할 카테고리 목록입니다. 새 물건의 front matter에
+# category: "전자기기"와 같이 아래 값 중 하나를 기록합니다.
+item_categories:
+  - 전자기기
+  - 의류·신발
+  - 가방·액세서리
+  - 주방용품
+  - 욕실·위생용품
+  - 침구·생활용품
+  - 가구·인테리어
+  - 문구·사무용품
+  - 책·기록물
+  - 취미·운동용품
+  - 공구·관리용품
+  - 소모품·비축품
+  - 추억·기념품
+  - 기타
+
+# 물건의 생애를 나타내는 상태입니다.
+item_statuses:
+  - 사용 중
+  - 사용 완료
+  - 내보냄
+  - 구매하지 않음
 
 # Build settings
 markdown: kramdown

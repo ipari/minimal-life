@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "비움의 즐거움"
+lang: ko
+translation_key: joy-of-letting-go
+permalink: /ko/posts/joy-of-letting-go/
+alternate_url: /en/posts/joy-of-letting-go/
 date: 2024-01-05
 ---
 

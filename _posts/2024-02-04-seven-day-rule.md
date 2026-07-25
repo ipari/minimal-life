@@ -1,0 +1,13 @@
+---
+layout: post
+title: "사기 전에 일주일 기다리기"
+lang: ko
+translation_key: seven-day-rule
+permalink: /ko/posts/seven-day-rule/
+alternate_url: /en/posts/seven-day-rule/
+date: 2024-02-04
+---
+
+사고 싶은 물건은 장바구니에 넣고 일주일을 기다린다.
+
+일주일 뒤에도 필요가 분명하면 구매하고, 이유를 설명하기 어렵다면 목록에서 지운다. 기다림만으로도 욕구와 필요가 꽤 선명하게 나뉜다.

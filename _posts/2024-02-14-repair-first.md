@@ -1,0 +1,13 @@
+---
+layout: post
+title: "교체하기 전에 수리하기"
+lang: ko
+translation_key: repair-first
+permalink: /ko/posts/repair-first/
+alternate_url: /en/posts/repair-first/
+date: 2024-02-14
+---
+
+손잡이가 느슨해진 주전자를 새로 사는 대신 나사를 조였다. 십 분의 수리로 익숙한 물건의 수명이 늘었다.
+
+고장은 구매의 신호가 아니라 먼저 살펴보라는 신호일 수 있다.

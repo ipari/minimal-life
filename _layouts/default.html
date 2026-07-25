@@ -1,24 +1,39 @@
+{% assign lang = page.lang | default: "en" %}
+{% assign t = site.data.ui[lang] %}
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="{{ lang }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ t.site_title }}</title>
+  <meta name="description" content="{{ t.description }}">
+  {% if page.alternate_url %}<link rel="alternate" hreflang="{% if lang == 'ko' %}en{% else %}ko{% endif %}" href="{{ page.alternate_url | absolute_url }}">{% endif %}
+  <link rel="icon" href="{{ '/assets/images/leaflette-mark.svg' | relative_url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script src="{{ '/assets/js/site.js' | relative_url }}?v=leaflette-2" defer></script>
 </head>
 <body>
   <div class="container">
     <header class="site-header">
-      <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+      <a href="/{{ lang }}/" class="site-title" aria-label="{{ t.site_title }}">
+        <img src="{{ '/assets/images/leaflette-mark.svg' | relative_url }}" alt="" class="site-mark" width="28" height="28">
+        <span>{{ t.site_title }}</span>
+      </a>
+      <a href="/{{ lang }}/about/" class="site-tagline">{{ t.description }}</a>
     </header>
 
     <main class="content">
       {{ content }}
+      {% capture home_url %}/{{ lang }}/{% endcapture %}
+      {% unless page.url == home_url %}
+      <nav class="back-nav" aria-label="{{ t.back }}">
+        <a href="{{ home_url }}" onclick="if (document.referrer.startsWith(window.location.origin + '/')) { history.back(); return false; }">&larr; {{ t.back }}</a>
+      </nav>
+      {% endunless %}
     </main>
 
     <footer class="site-footer">
-      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ t.site_title }} <span aria-hidden="true">&middot;</span> <a href="/{{ lang }}/about/">{{ t.about_nav }}</a></p>
     </footer>
   </div>
 </body>

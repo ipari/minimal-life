@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "디지털 미니멀리즘"
+lang: ko
+translation_key: digital-minimalism
+permalink: /ko/posts/digital-minimalism/
+alternate_url: /en/posts/digital-minimalism/
 date: 2024-01-15
 ---
 

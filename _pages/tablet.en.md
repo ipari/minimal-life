@@ -1,0 +1,24 @@
+---
+layout: page
+title: "Tablet"
+lang: en
+kind: item
+translation_key: tablet
+permalink: /en/items/tablet/
+alternate_url: /ko/items/tablet/
+thumbnail: /assets/images/thumbnails/tablet.webp
+image: /assets/images/products/tablet.png
+model: "iPad Air 11-inch (M2)"
+status: "Not purchased"
+category: "Electronics"
+reviewed_date: 2026-07-12
+review_summary: "I considered buying it to separate viewing and note-taking, but..."
+---
+
+## Why I considered it
+
+I wanted a separate device for video and handwriting.
+
+## Decision
+
+My laptop and e-reader already did everything I needed, so I did not buy it.

@@ -1,0 +1,13 @@
+---
+layout: post
+title: "추억은 사진 한 장으로"
+lang: ko
+translation_key: memory-without-things
+permalink: /ko/posts/memory-without-things/
+alternate_url: /en/posts/memory-without-things/
+date: 2024-02-29
+---
+
+사용하지 않지만 추억 때문에 보관하던 물건들을 사진으로 남겼다.
+
+물건을 떠나보내도 이야기는 사라지지 않았다. 오히려 사진과 짧은 기록 덕분에 기억을 더 자주 꺼내보게 됐다.
