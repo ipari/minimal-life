@@ -1,0 +1,117 @@
+---
+import type { CollectionEntry } from "astro:content";
+import type { Lang } from "../lib/i18n";
+import { formatDate, itemCategories, ui } from "../lib/i18n";
+
+interface Props {
+  lang: Lang;
+  posts: CollectionEntry<"posts">[];
+  items: CollectionEntry<"items">[];
+}
+
+const { lang, posts, items } = Astro.props;
+const t = ui[lang];
+const activeStatus = lang === "ko" ? "사용 중" : "In use";
+const retiredStatus = lang === "ko" ? "사용 완료" : "Retired";
+const letGoStatus = lang === "ko" ? "내보냄" : "Let go";
+const localizedPosts = posts
+  .filter(({ data }) => data.lang === lang)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const localizedItems = items.filter(({ data }) => data.lang === lang);
+const ownedItems = localizedItems.filter(({ data }) => data.status === activeStatus);
+const pastItems = localizedItems.filter(({ data }) => data.status === retiredStatus || data.status === letGoStatus);
+const acquiredItems = localizedItems
+  .filter(({ data }) => data.acquired_date)
+  .sort((a, b) => b.data.acquired_date!.getTime() - a.data.acquired_date!.getTime());
+const reviewedItems = localizedItems
+  .filter(({ data }) => data.reviewed_date)
+  .sort((a, b) => b.data.reviewed_date!.getTime() - a.data.reviewed_date!.getTime());
+---
+
+<section class="home-section home-section-compact">
+  <h2 class="section-title">{t.recent_posts}</h2>
+  {localizedPosts.length > 0 ? (
+    <>
+      <ul class="post-list">
+        {localizedPosts.slice(0, 3).map(({ data }) => (
+          <li class="post-item">
+            <h3 class="post-item-title"><a href={data.permalink}>{data.title}</a></h3>
+            <time class="post-item-date" datetime={data.date.toISOString()}>{formatDate(data.date, lang)}</time>
+          </li>
+        ))}
+      </ul>
+      <a href={`/${lang}/posts/`} class="more-link">{t.more} &rarr;</a>
+    </>
+  ) : <p class="empty-state">{t.no_posts}</p>}
+</section>
+
+{acquiredItems.length > 0 && (
+  <section class="home-section">
+    <h2 class="section-title">{t.recent_items}</h2>
+    <div class="recent-item-grid">
+      {acquiredItems.slice(0, 3).map(({ data }) => (
+        <a href={data.permalink} class="recent-item-card">
+          <div class="recent-item-thumbnail">{data.thumbnail && <img src={data.thumbnail} alt={data.title} />}</div>
+          <div class="recent-item-info"><h3>{data.title}</h3><p>{data.category} &middot; {formatDate(data.acquired_date!, lang, "short")}</p></div>
+        </a>
+      ))}
+    </div>
+  </section>
+)}
+
+{reviewedItems.length > 0 && (
+  <section class="home-section home-section-compact">
+    <h2 class="section-title">{t.recent_reviews}</h2>
+    <ul class="review-list">
+      {reviewedItems.slice(0, 3).map(({ data }) => (
+        <li><a href={data.permalink} class="review-item">
+          <div class="review-item-heading"><h3>{data.title}</h3><time datetime={data.reviewed_date!.toISOString()}>{formatDate(data.reviewed_date!, lang, "short")}</time></div>
+          {data.review_summary && <p>{data.review_summary}</p>}
+        </a></li>
+      ))}
+    </ul>
+    <div class="section-actions"><a href={`/${lang}/no-buys/`} class="more-link">{t.view_all} &rarr;</a></div>
+  </section>
+)}
+
+<section class="home-section">
+  <h2 class="section-title">{t.my_items}</h2>
+  {ownedItems.length > 0 ? (
+    <div class="page-grid">
+      {itemCategories.flatMap((category) => ownedItems
+        .filter(({ data }) => data.category === category[lang])
+        .sort((a, b) => (a.data.item_order ?? 0) - (b.data.item_order ?? 0))
+      ).map(({ data }) => (
+        <a href={data.permalink} class="page-card">
+          <div class="page-card-thumbnail">{data.thumbnail && <img src={data.thumbnail} alt={data.title} />}</div>
+          <h3 class="page-card-title">{data.title}</h3>
+          <span class="category-badge">{data.category}</span>
+        </a>
+      ))}
+    </div>
+  ) : <p class="empty-state">{t.no_items}</p>}
+  {pastItems.length > 0 && (
+    <div class="inventory-toggle-wrap">
+      <button type="button" class="inventory-toggle" data-inventory-toggle aria-expanded="false" aria-controls="past-items" data-label={t.view_all_items}>{t.view_all_items} &darr;</button>
+    </div>
+  )}
+</section>
+
+{pastItems.length > 0 && (
+  <section id="past-items" class="home-section past-items-section" hidden>
+    <h2 class="section-title">{t.past_items}</h2>
+    <div class="page-grid">
+      {itemCategories.flatMap((category) => pastItems
+        .filter(({ data }) => data.category === category[lang])
+        .sort((a, b) => (b.data.acquired_date?.getTime() ?? 0) - (a.data.acquired_date?.getTime() ?? 0))
+      ).map(({ data }) => (
+        <a href={data.permalink} class="page-card">
+          <div class="page-card-thumbnail">{data.thumbnail && <img src={data.thumbnail} alt={data.title} />}</div>
+          <h3 class="page-card-title">{data.title}</h3>
+          <span class="category-badge">{data.category}</span>
+          {data.acquired_date && <time class="page-card-date" datetime={data.acquired_date.toISOString()}>{formatDate(data.acquired_date, lang, "short")}</time>}
+        </a>
+      ))}
+    </div>
+  </section>
+)}

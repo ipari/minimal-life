@@ -1,0 +1,64 @@
+---
+import type { Lang } from "../lib/i18n";
+import { ui } from "../lib/i18n";
+
+interface Props {
+  lang: Lang;
+  title?: string;
+  alternateUrl?: string;
+  showBack?: boolean;
+}
+
+const { lang, title, alternateUrl, showBack = true } = Astro.props;
+const t = ui[lang];
+const pageTitle = title ? `${title} | ${t.site_title}` : t.site_title;
+const alternateLang = lang === "ko" ? "en" : "ko";
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={t.description} />
+    {alternateUrl && <link rel="alternate" hreflang={alternateLang} href={new URL(alternateUrl, Astro.site)} />}
+    <link rel="icon" href="/assets/images/leaflette-mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script is:inline src="/assets/js/site.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="site-header">
+        <a href={`/${lang}/`} class="site-title" aria-label={t.site_title}>
+          <img src="/assets/images/leaflette-mark.svg" alt="" class="site-mark" width="28" height="28" />
+          <span>{t.site_title}</span>
+        </a>
+        <a href={`/${lang}/about/`} class="site-tagline">{t.description}</a>
+      </header>
+
+      <main class="content">
+        <slot />
+        {showBack && (
+          <nav class="back-nav" aria-label={t.back}>
+            <a href={`/${lang}/`} data-back-link>&larr; {t.back}</a>
+          </nav>
+        )}
+      </main>
+
+      <footer class="site-footer">
+        <p>&copy; {new Date().getFullYear()} {t.site_title} <span aria-hidden="true">&middot;</span> <a href={`/${lang}/about/`}>{t.about_nav}</a></p>
+      </footer>
+    </div>
+    <script is:inline>
+      document.querySelectorAll("[data-back-link]").forEach((link) => {
+        link.addEventListener("click", (event) => {
+          if (document.referrer.startsWith(`${window.location.origin}/`)) {
+            event.preventDefault();
+            history.back();
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

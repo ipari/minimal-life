@@ -1,0 +1,27 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { formatDate, languages, type Lang, ui } from "../../../lib/i18n";
+
+export function getStaticPaths() {
+  return languages.map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const items = (await getCollection("items"))
+  .filter(({ data }) => data.lang === lang && data.reviewed_date)
+  .sort((a, b) => b.data.reviewed_date!.getTime() - a.data.reviewed_date!.getTime());
+const t = ui[lang];
+---
+
+<BaseLayout {lang} title={t.all_reviews} alternateUrl={`/${lang === "ko" ? "en" : "ko"}/no-buys/`}>
+  <h1 class="page-title" style="margin-bottom: 2rem;">{t.all_reviews}</h1>
+  <ul class="review-list">
+    {items.map(({ data }) => (
+      <li><a href={data.permalink} class="review-item">
+        <div class="review-item-heading"><h3>{data.title}</h3><time datetime={data.reviewed_date!.toISOString()}>{formatDate(data.reviewed_date!, lang, "short")}</time></div>
+        {data.review_summary && <p>{data.review_summary}</p>}
+      </a></li>
+    ))}
+  </ul>
+</BaseLayout>

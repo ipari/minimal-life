@@ -1,0 +1,22 @@
+---
+import { getCollection, render } from "astro:content";
+import PageLayout from "../../../layouts/PageLayout.astro";
+import { languages, type Lang } from "../../../lib/i18n";
+
+export async function getStaticPaths() {
+  const pages = await getCollection("pages");
+  return languages.map((lang) => ({
+    params: { lang },
+    props: { entry: pages.find(({ data }) => data.lang === lang) },
+  }));
+}
+
+const { entry } = Astro.props;
+if (!entry) throw new Error("Localized About page not found");
+const { Content } = await render(entry);
+const lang = entry.data.lang as Lang;
+---
+
+<PageLayout title={entry.data.title} {lang} alternateUrl={entry.data.alternate_url}>
+  <Content />
+</PageLayout>

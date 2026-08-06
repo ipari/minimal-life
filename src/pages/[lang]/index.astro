@@ -1,0 +1,17 @@
+---
+import { getCollection } from "astro:content";
+import Home from "../../components/Home.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { languages, type Lang } from "../../lib/i18n";
+
+export function getStaticPaths() {
+  return languages.map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const [posts, items] = await Promise.all([getCollection("posts"), getCollection("items")]);
+---
+
+<BaseLayout {lang} title={lang === "ko" ? "홈" : "Home"} alternateUrl={`/${lang === "ko" ? "en" : "ko"}/`} showBack={false}>
+  <Home {lang} {posts} {items} />
+</BaseLayout>

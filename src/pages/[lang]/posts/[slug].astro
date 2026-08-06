@@ -1,0 +1,20 @@
+---
+import { getCollection, render } from "astro:content";
+import PostLayout from "../../../layouts/PostLayout.astro";
+import { slugFromPermalink } from "../../../lib/i18n";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("posts");
+  return posts.map((entry) => ({
+    params: { lang: entry.data.lang, slug: slugFromPermalink(entry.data.permalink) },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<PostLayout title={entry.data.title} lang={entry.data.lang} date={entry.data.date} alternateUrl={entry.data.alternate_url}>
+  <Content />
+</PostLayout>

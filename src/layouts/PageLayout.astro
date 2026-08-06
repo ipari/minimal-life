@@ -1,0 +1,41 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import type { Lang } from "../lib/i18n";
+import { formatAcquiredDate } from "../lib/i18n";
+
+interface Props {
+  title: string;
+  lang: Lang;
+  alternateUrl: string;
+  category?: string;
+  model?: string;
+  status?: string;
+  acquiredDate?: Date;
+  image?: string;
+  thumbnail?: string;
+}
+
+const { title, lang, alternateUrl, category, model, status, acquiredDate, image, thumbnail } = Astro.props;
+const detailImage = image ?? thumbnail;
+---
+
+<BaseLayout {lang} {title} {alternateUrl}>
+  <article class="page">
+    <header class="page-header">
+      {category && <div class="page-category"><span class="category-badge">{category}</span></div>}
+      <div class="page-heading">
+        <h1 class="page-title">{title}</h1>
+        {model && <p class="page-model">{model}</p>}
+      </div>
+      {(status || acquiredDate) && (
+        <div class="item-overview">
+          {status && <p class="item-status">{status}</p>}
+          {status && acquiredDate && <span class="fact-separator" aria-hidden="true">&middot;</span>}
+          {acquiredDate && <p class="acquired-date">{formatAcquiredDate(acquiredDate, lang)}</p>}
+        </div>
+      )}
+    </header>
+    {detailImage && <div class="page-thumbnail"><img src={detailImage} alt={title} /></div>}
+    <div class="page-content"><slot /></div>
+  </article>
+</BaseLayout>

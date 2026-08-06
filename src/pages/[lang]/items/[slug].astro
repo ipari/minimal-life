@@ -1,0 +1,30 @@
+---
+import { getCollection, render } from "astro:content";
+import PageLayout from "../../../layouts/PageLayout.astro";
+import { slugFromPermalink } from "../../../lib/i18n";
+
+export async function getStaticPaths() {
+  const items = await getCollection("items");
+  return items.map((entry) => ({
+    params: { lang: entry.data.lang, slug: slugFromPermalink(entry.data.permalink) },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<PageLayout
+  title={entry.data.title}
+  lang={entry.data.lang}
+  alternateUrl={entry.data.alternate_url}
+  category={entry.data.category}
+  model={entry.data.model}
+  status={entry.data.status}
+  acquiredDate={entry.data.acquired_date}
+  image={entry.data.image}
+  thumbnail={entry.data.thumbnail}
+>
+  <Content />
+</PageLayout>

@@ -1,0 +1,17 @@
+---
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <title>Leaflette</title>
+    <script is:inline>
+      const language = (navigator.languages && navigator.languages[0]) || navigator.language || "en";
+      location.replace(language.toLowerCase().startsWith("ko") ? "/ko/" : "/en/");
+    </script>
+    <noscript><meta http-equiv="refresh" content="0; url=/en/" /></noscript>
+  </head>
+  <body><p><a href="/en/">Continue in English</a> &middot; <a href="/ko/">한국어로 계속</a></p></body>
+</html>

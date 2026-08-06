@@ -1,0 +1,27 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { formatDate, languages, type Lang, ui } from "../../../lib/i18n";
+
+export function getStaticPaths() {
+  return languages.map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const posts = (await getCollection("posts"))
+  .filter(({ data }) => data.lang === lang)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const t = ui[lang];
+---
+
+<BaseLayout {lang} title={t.all_posts} alternateUrl={`/${lang === "ko" ? "en" : "ko"}/posts/`}>
+  <h1 class="page-title" style="margin-bottom: 2rem;">{t.all_posts}</h1>
+  <ul class="posts-archive">
+    {posts.map(({ data }) => (
+      <li class="post-item">
+        <time class="post-item-date" datetime={data.date.toISOString()}>{formatDate(data.date, lang, "short")}</time>
+        <h3 class="post-item-title"><a href={data.permalink}>{data.title}</a></h3>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>
